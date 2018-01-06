@@ -1,0 +1,6 @@
+framework module Aquarius {
+  umbrella header "Aquarius-umbrella.h"
+
+  export *
+  module * { export * }
+}
