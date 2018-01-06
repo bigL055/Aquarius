@@ -7,7 +7,7 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+动态表单构建界面
 
 ## Requirements
 
@@ -22,7 +22,7 @@ pod 'Aquarius'
 
 ## Author
 
-158179948@qq.com, 158179948@qq.com
+linger, linhan.bigl055@outlook.com
 
 ## License
 
