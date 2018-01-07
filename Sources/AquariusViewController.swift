@@ -127,17 +127,17 @@ extension AquariusViewController {
 
 extension AquariusViewController {
 
-  private func buildUI() {
+  func buildUI() {
     view.addSubview(tableView)
     buildLayout()
     buildSubview()
   }
 
-  private func buildLayout() {
+  func buildLayout() {
     tableView.frame = view.bounds
   }
 
-  private func buildSubview() {
+  func buildSubview() {
     tableView.dataSource = self
     tableView.delegate = self
     tableView.showsHorizontalScrollIndicator = false

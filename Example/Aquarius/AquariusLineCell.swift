@@ -10,8 +10,7 @@ import UIKit
 import Aquarius
 @objc(AquariusLineCell)
 class AquariusLineCell: UITableViewCell,AquariusProtocol {
-
-
+  
   static var ratio: Double {
     get {
       return 0.3
