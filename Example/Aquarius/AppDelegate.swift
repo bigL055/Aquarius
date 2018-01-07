@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Aquarius
 //
-//  Created by 158179948@qq.com on 01/06/2018.
-//  Copyright (c) 2018 158179948@qq.com. All rights reserved.
+//  Created by linhan.bigl055@outlook.com on 01/06/2018.
+//  Copyright (c) 2018 linhan.bigl055@outlook.com. All rights reserved.
 //
 
 import UIKit

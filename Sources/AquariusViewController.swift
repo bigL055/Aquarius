@@ -1,6 +1,6 @@
 //
-//  JsonTableViewController.swift
-//  JsonTableViewCotroller
+//  AquariusTableViewController.swift
+//  AquariusTableViewController
 //
 //  Created by bigl on 2018/1/5.
 //
@@ -8,42 +8,13 @@
 import UIKit
 
 
-open class JsonTableViewController: UIViewController {
+open class AquariusViewController: UIViewController {
 
-  static var jsonCells = [String: JsonCellProtocol.Type]()
-  var registCells = [String: JsonCellProtocol.Type]()
-  var cellItems = [Container]()
+  static var jsonCells = [String: AquariusProtocol.Type]()
+  var registCells = [String: AquariusProtocol.Type]()
+  var cellItems = [Aquarius.Container]()
   
-  public let tableView = JsonTableView(frame: .zero, style: .grouped)
-
-  public var cellPrefix = "Json"
-  public var cellSuffix = "TableViewCell"
-
-  public struct Container {
-    /// 宽高比
-    public var ratio: CGFloat
-    /// 类型
-    public var typeId: String
-    /// 所在位置
-    public var index: Int
-    /// 唯一标识
-    public var id: String
-    /// 控件内部描述
-    public var subDict: [String: Any]
-
-    public init(ratio: CGFloat,
-                typeId: String,
-                index: Int,
-                id: String,
-                subDict: [String: Any]) {
-      self.ratio = ratio
-      self.typeId = typeId
-      self.index = index
-      self.id = id
-      self.subDict = subDict
-    }
-  }
-
+  public let tableView = AquariusView(frame: .zero, style: .grouped)
 
   override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
     super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -58,14 +29,13 @@ open class JsonTableViewController: UIViewController {
     super.viewDidLoad()
     buildUI()
   }
-
 }
 
 
 // MARK: - APIs
-extension JsonTableViewController {
+extension AquariusViewController {
 
-  public func update(containers items: [Container]) {
+  public func update(containers items: [Aquarius.Container]) {
     cellItems = insert(tableView: tableView,
                        cellItems: cellItems,
                        newItems: items)
@@ -75,15 +45,15 @@ extension JsonTableViewController {
 }
 
 
-extension JsonTableViewController {
+extension AquariusViewController {
 
   /// 数据排序
   ///
   /// - Parameter jsonItems: 待排序的数据
   /// - Returns: 排序后的数据
-  func insert(tableView: JsonTableView,
-              cellItems: [Container],
-              newItems: [Container]) -> [Container] {
+  func insert(tableView: AquariusView,
+              cellItems: [Aquarius.Container],
+              newItems: [Aquarius.Container]) -> [Aquarius.Container] {
     let lawfulItems = regist(tableView: tableView, newItems: newItems)
     return cellItems + lawfulItems
   }
@@ -94,11 +64,11 @@ extension JsonTableViewController {
   ///   - tableView: tableview 用于新cell注册
   ///   - newItems: 新数据
   /// - Returns:  合法数据
-  func regist(tableView: JsonTableView, newItems: [Container]) -> [Container] {
-    let items = newItems.flatMap({ (item) -> Container? in
+  func regist(tableView: AquariusView, newItems: [Aquarius.Container]) -> [Aquarius.Container] {
+    let items = newItems.flatMap({ (item) -> Aquarius.Container? in
       guard let c = getCellProtocol(tableView: tableView, typeId: item.typeId),
         c.verify(dict: item.subDict) else { return nil }
-      var item = item
+      let item = item
       registCells[item.typeId] = c
       return item
     })
@@ -111,10 +81,10 @@ extension JsonTableViewController {
   ///   - tableView: tableview 用于新cell注册
   ///   - newItems: 新数据
   /// - Returns:  合法数据
-  func getCellProtocol(tableView: JsonTableView, typeId: String) -> JsonCellProtocol.Type? {
+  func getCellProtocol(tableView: AquariusView, typeId: String) -> AquariusProtocol.Type? {
     if let c = registCells[typeId] { return c }
 
-    if let c = JsonTableViewController.jsonCells[typeId] {
+    if let c = AquariusViewController.jsonCells[typeId] {
       registCells[typeId] = c
       if let nib = c.nib {
         tableView.register(nib, forCellReuseIdentifier: typeId)
@@ -124,9 +94,9 @@ extension JsonTableViewController {
       return c
     }
 
-    if let c = NSClassFromString(cellPrefix + typeId + cellSuffix) as? JsonCellProtocol.Type {
+    if let c = NSClassFromString(Aquarius.cellPrefix + typeId + Aquarius.cellSuffix) as? AquariusProtocol.Type {
       registCells[typeId] = c
-      JsonTableViewController.jsonCells[typeId] = c
+      AquariusViewController.jsonCells[typeId] = c
       if let nib = c.nib {
         tableView.register(nib, forCellReuseIdentifier: typeId)
       }else{
@@ -140,7 +110,7 @@ extension JsonTableViewController {
 
 }
 
-extension JsonTableViewController {
+extension AquariusViewController {
 
   private func buildUI() {
     view.addSubview(tableView)
@@ -160,7 +130,7 @@ extension JsonTableViewController {
   }
 }
 
-extension JsonTableViewController: UITableViewDataSource {
+extension AquariusViewController: UITableViewDataSource {
 
   public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
     return cellItems.count
@@ -168,18 +138,16 @@ extension JsonTableViewController: UITableViewDataSource {
 
   public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let item = cellItems[indexPath.item]
-    guard let tableView = tableView as? JsonTableView,
-      let cell = tableView.dequeueReusableCell(withIdentifier: item.typeId, for: indexPath) as? JsonCellProtocol else {
+    guard let tableView = tableView as? AquariusView,
+      let cell = tableView.dequeueReusableCell(withIdentifier: item.typeId, for: indexPath) as? AquariusProtocol else {
         return UITableViewCell()
     }
     cell.dict = item.subDict
     return cell as! UITableViewCell
   }
-
 }
 
-
-extension JsonTableViewController: UITableViewDelegate {
+extension AquariusViewController: UITableViewDelegate {
 
   public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
      return tableView.bounds.width * cellItems[indexPath.item].ratio

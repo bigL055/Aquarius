@@ -6,8 +6,8 @@
 //
 
 import UIKit
-@objc(JsonTableViewCell)
-open class JsonTableViewCell: UITableViewCell,JsonCellProtocol {
+@objc(AquariusCell)
+open class AquariusCell: UITableViewCell,AquariusProtocol {
 
   open class func verify(dict: [String : Any]) -> Bool {
 

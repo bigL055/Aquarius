@@ -7,6 +7,6 @@
 
 import UIKit
 
-open class JsonTableView: UITableView {
+open class AquariusView: UITableView {
 
 }

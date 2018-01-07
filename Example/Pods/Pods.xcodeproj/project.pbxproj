@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		175FDE2E4F166288106E9337D2B3D9B9 /* Aquarius-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E618A65647E2366113C89C39555577 /* Aquarius-dummy.m */; };
-		1EED993F6F22F1A8AF9DB1706EA32F5D /* JsonContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D36B519BBD7831686D3AA82F3E892C2 /* JsonContainer.swift */; };
+		26CC5FDEE09BC3237B51F11D44941C18 /* Aquarius-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 119D2BE5DA831AF642B9F7DA92C2F01F /* Aquarius-dummy.m */; };
 		2CD93A9D64284EFFD88365E5E04BA72F /* Pods-Aquarius_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E34C3905E426C709E0292821C1025D1E /* Pods-Aquarius_Tests-dummy.m */; };
 		4A37CF4280B3E70718999CEEEC45780C /* Pods-Aquarius_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B4152B4F0E82670A181D6121A96F796 /* Pods-Aquarius_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A650926274E75CBF405D0B378370E95 /* Pods-Aquarius_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD00CF43838D38F89BEC322F303B37E5 /* Pods-Aquarius_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4CA41587042F324CCE0A23F17DAE9541 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4E4DE37A5ED0C298DCB717CF8F53820E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6D943062716A446A834D58B4D12A5C86 /* JsonTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD8E001A989B63EA906EB30DF235597 /* JsonTableView.swift */; };
-		8A76E2FA084224EF78D8D695557E8BFC /* JsonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC50308CB0F7ECB3FFF958C43B668BE6 /* JsonTableViewController.swift */; };
-		94B59EBE5DC0F3CDB0B2FC0E902EB6B6 /* JsonCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B626C702A12E25B54C3BEED998494FD /* JsonCellProtocol.swift */; };
+		55AFF07091D27F4B09F1BCC2DE169E8F /* AquariusProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35868E539C1E1547BF12AFC4E35FD5B2 /* AquariusProtocol.swift */; };
+		6BC5FAFF3F9CFAE68DA25970524837EC /* AquariusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6D79F70A3DEF5B3F778543828535D9 /* AquariusCell.swift */; };
+		90A15B61166053F210BF500E77A56586 /* AquariusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF4A41570C6710576505DB16FD891D8 /* AquariusViewController.swift */; };
+		941CEC332D5539A39D8C06E246FFFC36 /* AquariusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008AB50AFC5B7F8CFDFE0C7D88B51CA6 /* AquariusView.swift */; };
 		9D62089F2312606527671300AD4A9583 /* Pods-Aquarius_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD9FACD2C4F5B834804B7599C2BE413 /* Pods-Aquarius_Example-dummy.m */; };
-		B422F6E8E5DEAF0A8CC522335BC7ABA6 /* Aquarius.h in Headers */ = {isa = PBXBuildFile; fileRef = 1366EAD83D9A677014993BE9580F7EDC /* Aquarius.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9D3E9A444B0E17A5EF80313CDCC9E63 /* Aquarius-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A96733D52D03EACE3FCED7F3FED76D /* Aquarius-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B422F6E8E5DEAF0A8CC522335BC7ABA6 /* Aquarius.h in Headers */ = {isa = PBXBuildFile; fileRef = 56170A7E891837365FB021B401A7ABF1 /* Aquarius.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF946C16A65BC261214C2782F2D9C036 /* Aquarius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1069FCD0409AAC6F1F2955B66005D5C1 /* Aquarius.swift */; };
+		C9D3E9A444B0E17A5EF80313CDCC9E63 /* Aquarius-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E9DE53042BFE55B3A5783A84BE26D80 /* Aquarius-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E71D7BFC8EF450A27AD9218A688E4B9C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		E8592B0623B565EFB8D2C436D0B012C6 /* JsonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135660ABCCD6AF98F8BC85233F725E63 /* JsonTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,42 +35,42 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		135660ABCCD6AF98F8BC85233F725E63 /* JsonTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonTableViewCell.swift; path = Sources/JsonTableViewCell.swift; sourceTree = "<group>"; };
-		1366EAD83D9A677014993BE9580F7EDC /* Aquarius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Aquarius.h; path = Sources/Aquarius.h; sourceTree = "<group>"; };
-		177E57A211895D619DC7B0F11DF394A0 /* Aquarius.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Aquarius.modulemap; sourceTree = "<group>"; };
-		17F2528DF329E18A0902B7D8B6AE5FF5 /* Aquarius.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aquarius.xcconfig; sourceTree = "<group>"; };
-		1A09743E6789F9C6BF850B09D0F95BB0 /* Pods-Aquarius_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Aquarius_Example.modulemap"; sourceTree = "<group>"; };
-		1C1E8D8849A61000052F59FD213A30DA /* Pods-Aquarius_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Aquarius_Tests.modulemap"; sourceTree = "<group>"; };
-		21C83DA9725CEC83C7045B67B3687AC0 /* Pods_Aquarius_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aquarius_Tests.framework; path = "Pods-Aquarius_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		008AB50AFC5B7F8CFDFE0C7D88B51CA6 /* AquariusView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusView.swift; path = Sources/AquariusView.swift; sourceTree = "<group>"; };
+		04C86E5F0869C223F0EA7A3C5E2BFC48 /* Aquarius.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aquarius.xcconfig; sourceTree = "<group>"; };
+		0D6D79F70A3DEF5B3F778543828535D9 /* AquariusCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusCell.swift; path = Sources/AquariusCell.swift; sourceTree = "<group>"; };
+		0E9DE53042BFE55B3A5783A84BE26D80 /* Aquarius-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aquarius-umbrella.h"; sourceTree = "<group>"; };
+		1069FCD0409AAC6F1F2955B66005D5C1 /* Aquarius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aquarius.swift; path = Sources/Aquarius.swift; sourceTree = "<group>"; };
+		119D2BE5DA831AF642B9F7DA92C2F01F /* Aquarius-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aquarius-dummy.m"; sourceTree = "<group>"; };
+		1A09743E6789F9C6BF850B09D0F95BB0 /* Pods-Aquarius_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Aquarius_Example.modulemap"; sourceTree = "<group>"; };
+		1C1E8D8849A61000052F59FD213A30DA /* Pods-Aquarius_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Aquarius_Tests.modulemap"; sourceTree = "<group>"; };
+		21C83DA9725CEC83C7045B67B3687AC0 /* Pods_Aquarius_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aquarius_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D12571C7C564A6040AF6B948BC92424 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		316C2861191611F1CE3249BDA1F63B16 /* Pods-Aquarius_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aquarius_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		35868E539C1E1547BF12AFC4E35FD5B2 /* AquariusProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusProtocol.swift; path = Sources/AquariusProtocol.swift; sourceTree = "<group>"; };
 		3B4152B4F0E82670A181D6121A96F796 /* Pods-Aquarius_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aquarius_Example-umbrella.h"; sourceTree = "<group>"; };
-		3B626C702A12E25B54C3BEED998494FD /* JsonCellProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonCellProtocol.swift; path = Sources/JsonCellProtocol.swift; sourceTree = "<group>"; };
 		45F76FED5CA993FFC02691691652CC73 /* Pods-Aquarius_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aquarius_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		52571D6FB96D9A834730659AC6872361 /* Pods-Aquarius_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aquarius_Example-resources.sh"; sourceTree = "<group>"; };
-		56E618A65647E2366113C89C39555577 /* Aquarius-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aquarius-dummy.m"; sourceTree = "<group>"; };
+		56170A7E891837365FB021B401A7ABF1 /* Aquarius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Aquarius.h; path = Sources/Aquarius.h; sourceTree = "<group>"; };
 		5A9E0F56E432FBEACAC2DE040143746A /* Pods-Aquarius_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aquarius_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5D03576D048577E9ADCE18A08C72C972 /* Aquarius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aquarius.framework; path = Aquarius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FD7A747EF8D33E070B92E3C25D00F8B /* Pods_Aquarius_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aquarius_Example.framework; path = "Pods-Aquarius_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D03576D048577E9ADCE18A08C72C972 /* Aquarius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Aquarius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD7A747EF8D33E070B92E3C25D00F8B /* Pods_Aquarius_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aquarius_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6E6A929008C76BB7FF48004B2FAE62A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DEA2222E2833A672616BB1F252999A9 /* Pods-Aquarius_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aquarius_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D36B519BBD7831686D3AA82F3E892C2 /* JsonContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonContainer.swift; path = Sources/JsonContainer.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A2C535747E3F4BD50C92B42F6757E35 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0C76AE6F59935A24A72CE1EA3C2ED43 /* Pods-Aquarius_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aquarius_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A87439B94B8ADA853554AC50D934617B /* Pods-Aquarius_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aquarius_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BC50308CB0F7ECB3FFF958C43B668BE6 /* JsonTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonTableViewController.swift; path = Sources/JsonTableViewController.swift; sourceTree = "<group>"; };
-		C0A96733D52D03EACE3FCED7F3FED76D /* Aquarius-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aquarius-umbrella.h"; sourceTree = "<group>"; };
 		CD00CF43838D38F89BEC322F303B37E5 /* Pods-Aquarius_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aquarius_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D24B32DFAF7CFB12A5FA3CA941A6B800 /* Aquarius-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aquarius-prefix.pch"; sourceTree = "<group>"; };
 		D3DD1F0AE243705EF8BA9058C5CB60A2 /* Pods-Aquarius_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aquarius_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D75CBDCAB50D58E36DA73958B9AB6806 /* Pods-Aquarius_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aquarius_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DCD8E001A989B63EA906EB30DF235597 /* JsonTableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JsonTableView.swift; path = Sources/JsonTableView.swift; sourceTree = "<group>"; };
-		DCED8C7D77C57329CE738B110DEFE4DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDD9FACD2C4F5B834804B7599C2BE413 /* Pods-Aquarius_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aquarius_Example-dummy.m"; sourceTree = "<group>"; };
+		E0ADF96788C6B4679B6A5CD6946F45C6 /* Aquarius.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Aquarius.modulemap; sourceTree = "<group>"; };
 		E2536B31045DD3F0676B42CE34F05D96 /* Pods-Aquarius_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aquarius_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E34C3905E426C709E0292821C1025D1E /* Pods-Aquarius_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aquarius_Tests-dummy.m"; sourceTree = "<group>"; };
+		E8B24E3E5DE424721C1521AD98A2A106 /* Aquarius-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aquarius-prefix.pch"; sourceTree = "<group>"; };
 		ED660907398549FB3E5FE5AE6324BE6A /* Pods-Aquarius_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aquarius_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EFF4A41570C6710576505DB16FD891D8 /* AquariusViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusViewController.swift; path = Sources/AquariusViewController.swift; sourceTree = "<group>"; };
 		F8F0329269E7263609B30D7BFE5314B4 /* Pods-Aquarius_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aquarius_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,27 +113,26 @@
 			);
 			sourceTree = "<group>";
 		};
+		80207FD5BD95AC71E759BFF0A15D2173 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0ADF96788C6B4679B6A5CD6946F45C6 /* Aquarius.modulemap */,
+				04C86E5F0869C223F0EA7A3C5E2BFC48 /* Aquarius.xcconfig */,
+				119D2BE5DA831AF642B9F7DA92C2F01F /* Aquarius-dummy.m */,
+				E8B24E3E5DE424721C1521AD98A2A106 /* Aquarius-prefix.pch */,
+				0E9DE53042BFE55B3A5783A84BE26D80 /* Aquarius-umbrella.h */,
+				9A2C535747E3F4BD50C92B42F6757E35 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Aquarius";
+			sourceTree = "<group>";
+		};
 		81DC20EE2CA734E8DA2B8875BF9D1C7A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				98466F4F17846E3136A99742B8B76200 /* Aquarius */,
+				E1298018D221FC02B232B76CDEA3532A /* Aquarius */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		98466F4F17846E3136A99742B8B76200 /* Aquarius */ = {
-			isa = PBXGroup;
-			children = (
-				1366EAD83D9A677014993BE9580F7EDC /* Aquarius.h */,
-				3B626C702A12E25B54C3BEED998494FD /* JsonCellProtocol.swift */,
-				9D36B519BBD7831686D3AA82F3E892C2 /* JsonContainer.swift */,
-				DCD8E001A989B63EA906EB30DF235597 /* JsonTableView.swift */,
-				135660ABCCD6AF98F8BC85233F725E63 /* JsonTableViewCell.swift */,
-				BC50308CB0F7ECB3FFF958C43B668BE6 /* JsonTableViewController.swift */,
-				D153625D77FB6C30378BB148085594E6 /* Support Files */,
-			);
-			name = Aquarius;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		AC05E3664762190A97332E792D9B41CC /* Targets Support Files */ = {
@@ -199,26 +198,27 @@
 			path = "Target Support Files/Pods-Aquarius_Example";
 			sourceTree = "<group>";
 		};
-		D153625D77FB6C30378BB148085594E6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				177E57A211895D619DC7B0F11DF394A0 /* Aquarius.modulemap */,
-				17F2528DF329E18A0902B7D8B6AE5FF5 /* Aquarius.xcconfig */,
-				56E618A65647E2366113C89C39555577 /* Aquarius-dummy.m */,
-				D24B32DFAF7CFB12A5FA3CA941A6B800 /* Aquarius-prefix.pch */,
-				C0A96733D52D03EACE3FCED7F3FED76D /* Aquarius-umbrella.h */,
-				DCED8C7D77C57329CE738B110DEFE4DA /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Aquarius";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1298018D221FC02B232B76CDEA3532A /* Aquarius */ = {
+			isa = PBXGroup;
+			children = (
+				56170A7E891837365FB021B401A7ABF1 /* Aquarius.h */,
+				1069FCD0409AAC6F1F2955B66005D5C1 /* Aquarius.swift */,
+				35868E539C1E1547BF12AFC4E35FD5B2 /* AquariusProtocol.swift */,
+				008AB50AFC5B7F8CFDFE0C7D88B51CA6 /* AquariusView.swift */,
+				0D6D79F70A3DEF5B3F778543828535D9 /* AquariusCell.swift */,
+				EFF4A41570C6710576505DB16FD891D8 /* AquariusViewController.swift */,
+				80207FD5BD95AC71E759BFF0A15D2173 /* Support Files */,
+			);
+			name = Aquarius;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +256,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2F4DED5FFE09D8CE89E9DF8A327EE78 /* Build configuration list for PBXNativeTarget "Aquarius" */;
 			buildPhases = (
-				F4DD616BB31B47DF17B88254F39708C3 /* Sources */,
+				1090687592D15190140F82EF4BD4249D /* Sources */,
 				85810345551AC701A3987CA56D04F3ED /* Frameworks */,
 				C70A5B397A415493C925D7EACF847F63 /* Headers */,
 			);
@@ -311,7 +311,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -341,24 +341,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1090687592D15190140F82EF4BD4249D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26CC5FDEE09BC3237B51F11D44941C18 /* Aquarius-dummy.m in Sources */,
+				BF946C16A65BC261214C2782F2D9C036 /* Aquarius.swift in Sources */,
+				55AFF07091D27F4B09F1BCC2DE169E8F /* AquariusProtocol.swift in Sources */,
+				941CEC332D5539A39D8C06E246FFFC36 /* AquariusView.swift in Sources */,
+				6BC5FAFF3F9CFAE68DA25970524837EC /* AquariusCell.swift in Sources */,
+				90A15B61166053F210BF500E77A56586 /* AquariusViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C4501506F201FF758815BDEC811EE77E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2CD93A9D64284EFFD88365E5E04BA72F /* Pods-Aquarius_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F4DD616BB31B47DF17B88254F39708C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				175FDE2E4F166288106E9337D2B3D9B9 /* Aquarius-dummy.m in Sources */,
-				94B59EBE5DC0F3CDB0B2FC0E902EB6B6 /* JsonCellProtocol.swift in Sources */,
-				1EED993F6F22F1A8AF9DB1706EA32F5D /* JsonContainer.swift in Sources */,
-				6D943062716A446A834D58B4D12A5C86 /* JsonTableView.swift in Sources */,
-				E8592B0623B565EFB8D2C436D0B012C6 /* JsonTableViewCell.swift in Sources */,
-				8A76E2FA084224EF78D8D695557E8BFC /* JsonTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,7 +470,7 @@
 		};
 		57FBAACA8C8CED06102593B7C294238D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17F2528DF329E18A0902B7D8B6AE5FF5 /* Aquarius.xcconfig */;
+			baseConfigurationReference = 04C86E5F0869C223F0EA7A3C5E2BFC48 /* Aquarius.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -551,6 +551,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -656,7 +657,7 @@
 		};
 		F4FA71117C978D278E672D3CE076DA90 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17F2528DF329E18A0902B7D8B6AE5FF5 /* Aquarius.xcconfig */;
+			baseConfigurationReference = 04C86E5F0869C223F0EA7A3C5E2BFC48 /* Aquarius.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
