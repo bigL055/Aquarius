@@ -13,19 +13,20 @@ class ViewController: AquariusViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    let container1 = Aquarius.Container(ratio: 0.3,
-                                       typeId: "Line",
-                                       index: 0,
-                                       id: "5566",
-                                       subDict: ["text": "label1"])
 
-    let container2 = Aquarius.Container(ratio: 0.3,
-                                       typeId: "Line",
-                                       index: 0,
-                                       id: "5566",
-                                       subDict: ["text": "label2"])
+    var list = [Aquarius.Container]()
 
-    update(containers: [container1,container2])
+    (0...10000).forEach { (index) in
+    let item = Aquarius.Container(ratio: 0.3,
+                         typeId: "Line",
+                         index: index % 7,
+                         id: index.description,
+                         subDict: ["text": index.description])
+      list.append(item)
+    }
+
+
+    update(containers: list)
   }
 
   override func didReceiveMemoryWarning() {

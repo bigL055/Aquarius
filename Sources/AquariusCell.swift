@@ -9,12 +9,14 @@ import UIKit
 @objc(AquariusCell)
 open class AquariusCell: UITableViewCell,AquariusProtocol {
 
-  open class func verify(dict: [String : Any]) -> Bool {
+  public static var ratio: Double {
+    return 0.1
+  }
 
+  public var dict: [String : AnyHashable] = [:]
+
+  open class func verify(dict: [String : AnyHashable]) -> Bool {
     return true
   }
 
-
-  open var dict: [String: Any] = [:]
-  
 }

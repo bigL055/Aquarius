@@ -11,11 +11,19 @@ import Aquarius
 @objc(AquariusLineCell)
 class AquariusLineCell: UITableViewCell,AquariusProtocol {
 
-  static func verify(dict: [String : Any]) -> Bool {
+
+  static var ratio: Double {
+    get {
+      return 0.3
+    }
+  }
+
+
+  static func verify(dict: [String : AnyHashable]) -> Bool {
     return true
   }
 
-  var dict: [String : Any] = [:] {
+  var dict: [String : AnyHashable] = [:] {
     didSet{
       self.textLabel?.text = dict["text"] as? String ?? ""
     }

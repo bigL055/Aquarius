@@ -12,7 +12,9 @@ open class AquariusViewController: UIViewController {
 
   static var jsonCells = [String: AquariusProtocol.Type]()
   var registCells = [String: AquariusProtocol.Type]()
+
   var cellItems = [Aquarius.Container]()
+  var indexDict = [Int: Aquarius.Container]()
   
   public let tableView = AquariusView(frame: .zero, style: .grouped)
 
@@ -29,6 +31,7 @@ open class AquariusViewController: UIViewController {
     super.viewDidLoad()
     buildUI()
   }
+
 }
 
 
@@ -55,7 +58,18 @@ extension AquariusViewController {
               cellItems: [Aquarius.Container],
               newItems: [Aquarius.Container]) -> [Aquarius.Container] {
     let lawfulItems = regist(tableView: tableView, newItems: newItems)
-    return cellItems + lawfulItems
+
+    lawfulItems.forEach { (item) in
+      indexDict[item.index] = item
+    }
+
+    let newList = indexDict.sorted { (item1, item2) -> Bool in
+      return item2.key > item1.key
+      }.map { (item3) -> Aquarius.Container in
+        return item3.value
+    }
+
+    return newList
   }
 
   /// 新数据校验
@@ -150,7 +164,7 @@ extension AquariusViewController: UITableViewDataSource {
 extension AquariusViewController: UITableViewDelegate {
 
   public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-     return tableView.bounds.width * cellItems[indexPath.item].ratio
+    return tableView.bounds.width * cellItems[indexPath.item].ratio
   }
 
 }

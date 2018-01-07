@@ -3,9 +3,4 @@ use_frameworks!
 target 'Aquarius_Example' do
   pod 'Aquarius', :path => '../'
 
-  target 'Aquarius_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
