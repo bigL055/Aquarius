@@ -15,6 +15,7 @@ open class AquariusViewController: UIViewController {
 
   var cellItems = [Aquarius.Container]()
   var indexDict = [Int: Aquarius.Container]()
+
   
   public let tableView = AquariusView(frame: .zero, style: .grouped)
 
