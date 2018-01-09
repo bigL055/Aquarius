@@ -2,7 +2,7 @@
 //  JsonTableViewCell.swift
 //  JsonTableViewCotroller
 //
-//  Created by bigl on 2018/1/5.
+//  Created by linhey on 2018/1/5.
 //
 
 import UIKit

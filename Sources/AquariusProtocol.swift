@@ -2,7 +2,7 @@
 //  JsonData.swift
 //  JsonTableViewCotroller
 //
-//  Created by bigl on 2018/1/5.
+//  Created by linhey on 2018/1/5.
 //
 
 import UIKit
@@ -19,10 +19,11 @@ public extension AquariusProtocol {
   static public var nib: UINib? { return nil }
 }
 
-public protocol JsonNibProtocol: AquariusProtocol { }
+public protocol AquariusNibProtocol: AquariusProtocol { }
 
-public extension JsonNibProtocol {
+public extension AquariusNibProtocol {
   static public var nib: UINib? {
+    print(String(describing: Self.self))
     return UINib(nibName: String(describing: Self.self), bundle: nil)
   }
 }

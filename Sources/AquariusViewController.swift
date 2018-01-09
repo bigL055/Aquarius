@@ -2,7 +2,7 @@
 //  AquariusTableViewController.swift
 //  AquariusTableViewController
 //
-//  Created by bigl on 2018/1/5.
+//  Created by linhey on 2018/1/5.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ open class AquariusViewController: UIViewController {
   static var jsonCells = [String: AquariusProtocol.Type]()
   var registCells = [String: AquariusProtocol.Type]()
 
-  var cellItems = [Aquarius.Container]()
+ public var cellItems = [Aquarius.Container]()
   var indexDict = [Int: Aquarius.Container]()
 
   
@@ -151,14 +151,18 @@ extension AquariusViewController: UITableViewDataSource {
     return cellItems.count
   }
 
-  public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+  open func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     let item = cellItems[indexPath.item]
+
     guard let tableView = tableView as? AquariusView,
-      let cell = tableView.dequeueReusableCell(withIdentifier: item.typeId, for: indexPath) as? AquariusProtocol else {
-        return UITableViewCell()
+      let cell = tableView.dequeueReusableCell(withIdentifier: item.typeId)
+    else { return UITableViewCell() }
+
+    if let p = cell as? AquariusProtocol {
+      p.dict = item.subDict
     }
-    cell.dict = item.subDict
-    return cell as! UITableViewCell
+
+    return cell
   }
 }
 

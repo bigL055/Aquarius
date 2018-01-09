@@ -2,5 +2,8 @@ use_frameworks!
 
 target 'Aquarius_Example' do
   pod 'Aquarius', :path => '../'
+  pod 'SnapKit'
+  pod 'Kingfisher'
+  pod 'SPRoutable'
 
 end

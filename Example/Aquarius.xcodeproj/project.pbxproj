@@ -13,7 +13,10 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		9D5BDE802001EED500FCD3D9 /* AquariusLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5BDE7F2001EED500FCD3D9 /* AquariusLineCell.swift */; };
+		9D1748A9200379A700808C5D /* AquariusLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748A7200379A700808C5D /* AquariusLineCell.swift */; };
+		9D1748AC20037A3300808C5D /* AquariusImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748AA20037A3300808C5D /* AquariusImagesCell.swift */; };
+		9D1748B220039C5D00808C5D /* AquariusHotGoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748B020039C5D00808C5D /* AquariusHotGoodsCell.swift */; };
+		9D1748B320039C5D00808C5D /* AquariusHotGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1748B120039C5D00808C5D /* AquariusHotGoodsCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +30,10 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8D9DB46FEAFF8177E9E85849 /* Pods-Aquarius_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquarius_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aquarius_Example/Pods-Aquarius_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		92499D26D1963DE2373EAB64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9D5BDE7F2001EED500FCD3D9 /* AquariusLineCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariusLineCell.swift; sourceTree = "<group>"; };
+		9D1748A7200379A700808C5D /* AquariusLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquariusLineCell.swift; sourceTree = "<group>"; };
+		9D1748AA20037A3300808C5D /* AquariusImagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariusImagesCell.swift; sourceTree = "<group>"; };
+		9D1748B020039C5D00808C5D /* AquariusHotGoodsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariusHotGoodsCell.swift; sourceTree = "<group>"; };
+		9D1748B120039C5D00808C5D /* AquariusHotGoodsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AquariusHotGoodsCell.xib; sourceTree = "<group>"; };
 		A1D6F22E3201D71EC92BA466 /* Pods-Aquarius_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquarius_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aquarius_Example/Pods-Aquarius_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A9D43D74355AB096D7871387 /* Pods_Aquarius_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aquarius_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2AA360BBFA796312A1F66A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -81,13 +87,13 @@
 		607FACD21AFB9204008FA782 /* Example for Aquarius */ = {
 			isa = PBXGroup;
 			children = (
+				9D1748A5200379A700808C5D /* AquariusCells */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
-				9D5BDE7F2001EED500FCD3D9 /* AquariusLineCell.swift */,
 			);
 			name = "Example for Aquarius";
 			path = Aquarius;
@@ -109,6 +115,17 @@
 				BD2AA360BBFA796312A1F66A /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9D1748A5200379A700808C5D /* AquariusCells */ = {
+			isa = PBXGroup;
+			children = (
+				9D1748A7200379A700808C5D /* AquariusLineCell.swift */,
+				9D1748AA20037A3300808C5D /* AquariusImagesCell.swift */,
+				9D1748B020039C5D00808C5D /* AquariusHotGoodsCell.swift */,
+				9D1748B120039C5D00808C5D /* AquariusHotGoodsCell.xib */,
+			);
+			path = AquariusCells;
 			sourceTree = "<group>";
 		};
 		C2F2EB6993E7A6B45C73C328 /* Frameworks */ = {
@@ -186,6 +203,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				9D1748B320039C5D00808C5D /* AquariusHotGoodsCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,10 +251,16 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Aquarius_Example/Pods-Aquarius_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Aquarius/Aquarius.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SPRoutable/SPRoutable.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aquarius.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPRoutable.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -250,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D1748B220039C5D00808C5D /* AquariusHotGoodsCell.swift in Sources */,
+				9D1748AC20037A3300808C5D /* AquariusImagesCell.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				9D5BDE802001EED500FCD3D9 /* AquariusLineCell.swift in Sources */,
+				9D1748A9200379A700808C5D /* AquariusLineCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

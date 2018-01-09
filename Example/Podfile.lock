@@ -1,8 +1,14 @@
 PODS:
   - Aquarius (0.1.0)
+  - Kingfisher (4.6.1)
+  - SnapKit (4.0.0)
+  - SPRoutable (0.8.0)
 
 DEPENDENCIES:
   - Aquarius (from `../`)
+  - Kingfisher
+  - SnapKit
+  - SPRoutable
 
 EXTERNAL SOURCES:
   Aquarius:
@@ -10,7 +16,10 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Aquarius: 40234dffec797230002c48e7055df7c4e34dd298
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  SPRoutable: a7144f9d63768e307ee8966e585767967a12f26a
 
-PODFILE CHECKSUM: 5f1303333545c4e7c57c6ba5ae74051a0d980b98
+PODFILE CHECKSUM: 38ac8629f48bb6e42707d401353ec9e12802db68
 
 COCOAPODS: 1.3.1
