@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SPRoutable
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,8 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
+      window = UIWindow(frame: UIScreen.main.bounds)
+      guard let vc = Routable.viewController(url: "aquarius://aquarius/vc?id=home") else { return true }
+      window?.rootViewController = UINavigationController(rootViewController: vc)
+      window?.makeKeyAndVisible()
+      return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

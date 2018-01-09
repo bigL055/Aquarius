@@ -13,7 +13,7 @@ open class AquariusCell: UITableViewCell,AquariusProtocol {
     return 0.1
   }
 
-  public var dict: [String : AnyHashable] = [:]
+  public var config: [String : AnyHashable] = [:]
 
   open class func verify(dict: [String : AnyHashable]) -> Bool {
     return true

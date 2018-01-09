@@ -19,7 +19,7 @@ open class AquariusViewController: UIViewController {
   
   public let tableView = AquariusView(frame: .zero, style: .grouped)
 
-  override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+  public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
     super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     
   }
@@ -82,7 +82,7 @@ extension AquariusViewController {
   func regist(tableView: AquariusView, newItems: [Aquarius.Container]) -> [Aquarius.Container] {
     let items = newItems.flatMap({ (item) -> Aquarius.Container? in
       guard let c = getCellProtocol(tableView: tableView, typeId: item.typeId),
-        c.verify(dict: item.subDict) else { return nil }
+        c.verify(dict: item.config) else { return nil }
       let item = item
       registCells[item.typeId] = c
       return item
@@ -97,6 +97,12 @@ extension AquariusViewController {
   ///   - newItems: 新数据
   /// - Returns:  合法数据
   func getCellProtocol(tableView: AquariusView, typeId: String) -> AquariusProtocol.Type? {
+
+    if typeId.isEmpty {
+      assert(false, "type不能为空")
+      return nil
+    }
+
     if let c = registCells[typeId] { return c }
 
     if let c = AquariusViewController.jsonCells[typeId] {
@@ -159,7 +165,7 @@ extension AquariusViewController: UITableViewDataSource {
     else { return UITableViewCell() }
 
     if let p = cell as? AquariusProtocol {
-      p.dict = item.subDict
+      p.config = item.config
     }
 
     return cell

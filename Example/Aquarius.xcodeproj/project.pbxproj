@@ -9,14 +9,17 @@
 /* Begin PBXBuildFile section */
 		2D822F07E86E3133A58C9008 /* Pods_Aquarius_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D43D74355AB096D7871387 /* Pods_Aquarius_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		9D1748A9200379A700808C5D /* AquariusLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748A7200379A700808C5D /* AquariusLineCell.swift */; };
-		9D1748AC20037A3300808C5D /* AquariusImagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748AA20037A3300808C5D /* AquariusImagesCell.swift */; };
-		9D1748B220039C5D00808C5D /* AquariusHotGoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748B020039C5D00808C5D /* AquariusHotGoodsCell.swift */; };
-		9D1748B320039C5D00808C5D /* AquariusHotGoodsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1748B120039C5D00808C5D /* AquariusHotGoodsCell.xib */; };
+		9D1748B220039C5D00808C5D /* AquariusImages2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748B020039C5D00808C5D /* AquariusImages2Cell.swift */; };
+		9D1748B320039C5D00808C5D /* AquariusImages2Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1748B120039C5D00808C5D /* AquariusImages2Cell.xib */; };
+		9D1748B820046BE200808C5D /* AquariusVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748B720046BE100808C5D /* AquariusVC.swift */; };
+		9D1748BA20046BFD00808C5D /* Aquarius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748B920046BFD00808C5D /* Aquarius.swift */; };
+		9D1748BD20048EF900808C5D /* Json.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748BC20048EF900808C5D /* Json.swift */; };
+		9D1748BF20048F1A00808C5D /* Json+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748BE20048F1A00808C5D /* Json+Home.swift */; };
+		9D1748C22004A90D00808C5D /* AquariusImages4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748C02004A90C00808C5D /* AquariusImages4Cell.swift */; };
+		9D1748C32004A90D00808C5D /* AquariusImages4Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1748C12004A90D00808C5D /* AquariusImages4Cell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,16 +27,19 @@
 		607FACD01AFB9204008FA782 /* Aquarius_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aquarius_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		8D9DB46FEAFF8177E9E85849 /* Pods-Aquarius_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquarius_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aquarius_Example/Pods-Aquarius_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		92499D26D1963DE2373EAB64 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		9D1748A7200379A700808C5D /* AquariusLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquariusLineCell.swift; sourceTree = "<group>"; };
-		9D1748AA20037A3300808C5D /* AquariusImagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariusImagesCell.swift; sourceTree = "<group>"; };
-		9D1748B020039C5D00808C5D /* AquariusHotGoodsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariusHotGoodsCell.swift; sourceTree = "<group>"; };
-		9D1748B120039C5D00808C5D /* AquariusHotGoodsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AquariusHotGoodsCell.xib; sourceTree = "<group>"; };
+		9D1748B020039C5D00808C5D /* AquariusImages2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariusImages2Cell.swift; sourceTree = "<group>"; };
+		9D1748B120039C5D00808C5D /* AquariusImages2Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AquariusImages2Cell.xib; sourceTree = "<group>"; };
+		9D1748B720046BE100808C5D /* AquariusVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AquariusVC.swift; sourceTree = "<group>"; };
+		9D1748B920046BFD00808C5D /* Aquarius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aquarius.swift; sourceTree = "<group>"; };
+		9D1748BC20048EF900808C5D /* Json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Json.swift; sourceTree = "<group>"; };
+		9D1748BE20048F1A00808C5D /* Json+Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Json+Home.swift"; sourceTree = "<group>"; };
+		9D1748C02004A90C00808C5D /* AquariusImages4Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariusImages4Cell.swift; sourceTree = "<group>"; };
+		9D1748C12004A90D00808C5D /* AquariusImages4Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AquariusImages4Cell.xib; sourceTree = "<group>"; };
 		A1D6F22E3201D71EC92BA466 /* Pods-Aquarius_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquarius_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aquarius_Example/Pods-Aquarius_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A9D43D74355AB096D7871387 /* Pods_Aquarius_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aquarius_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2AA360BBFA796312A1F66A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -87,10 +93,10 @@
 		607FACD21AFB9204008FA782 /* Example for Aquarius */ = {
 			isa = PBXGroup;
 			children = (
+				9D1748BB20046EA600808C5D /* Jsons */,
+				9D1748B620046BE100808C5D /* AquariusVCs */,
 				9D1748A5200379A700808C5D /* AquariusCells */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -121,11 +127,30 @@
 			isa = PBXGroup;
 			children = (
 				9D1748A7200379A700808C5D /* AquariusLineCell.swift */,
-				9D1748AA20037A3300808C5D /* AquariusImagesCell.swift */,
-				9D1748B020039C5D00808C5D /* AquariusHotGoodsCell.swift */,
-				9D1748B120039C5D00808C5D /* AquariusHotGoodsCell.xib */,
+				9D1748B020039C5D00808C5D /* AquariusImages2Cell.swift */,
+				9D1748B120039C5D00808C5D /* AquariusImages2Cell.xib */,
+				9D1748C02004A90C00808C5D /* AquariusImages4Cell.swift */,
+				9D1748C12004A90D00808C5D /* AquariusImages4Cell.xib */,
 			);
 			path = AquariusCells;
+			sourceTree = "<group>";
+		};
+		9D1748B620046BE100808C5D /* AquariusVCs */ = {
+			isa = PBXGroup;
+			children = (
+				9D1748B720046BE100808C5D /* AquariusVC.swift */,
+				9D1748B920046BFD00808C5D /* Aquarius.swift */,
+			);
+			path = AquariusVCs;
+			sourceTree = "<group>";
+		};
+		9D1748BB20046EA600808C5D /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				9D1748BC20048EF900808C5D /* Json.swift */,
+				9D1748BE20048F1A00808C5D /* Json+Home.swift */,
+			);
+			path = Jsons;
 			sourceTree = "<group>";
 		};
 		C2F2EB6993E7A6B45C73C328 /* Frameworks */ = {
@@ -200,10 +225,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				9D1748C32004A90D00808C5D /* AquariusImages4Cell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				9D1748B320039C5D00808C5D /* AquariusHotGoodsCell.xib in Resources */,
+				9D1748B320039C5D00808C5D /* AquariusImages2Cell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,15 +275,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Aquarius_Example/Pods-Aquarius_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AnyFormatProtocol/AnyFormatProtocol.framework",
 				"${BUILT_PRODUCTS_DIR}/Aquarius/Aquarius.framework",
+				"${BUILT_PRODUCTS_DIR}/BLFoundation/BLFoundation.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SPKit/SPKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SPRoutable/SPRoutable.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AnyFormatProtocol.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Aquarius.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BLFoundation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SPRoutable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 			);
@@ -274,25 +305,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D1748B220039C5D00808C5D /* AquariusHotGoodsCell.swift in Sources */,
-				9D1748AC20037A3300808C5D /* AquariusImagesCell.swift in Sources */,
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9D1748B220039C5D00808C5D /* AquariusImages2Cell.swift in Sources */,
+				9D1748C22004A90D00808C5D /* AquariusImages4Cell.swift in Sources */,
+				9D1748BF20048F1A00808C5D /* Json+Home.swift in Sources */,
+				9D1748BA20046BFD00808C5D /* Aquarius.swift in Sources */,
+				9D1748B820046BE200808C5D /* AquariusVC.swift in Sources */,
 				9D1748A9200379A700808C5D /* AquariusLineCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				9D1748BD20048EF900808C5D /* Json.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

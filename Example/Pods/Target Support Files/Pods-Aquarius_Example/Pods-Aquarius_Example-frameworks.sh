@@ -102,14 +102,20 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AnyFormatProtocol/AnyFormatProtocol.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Aquarius/Aquarius.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BLFoundation/BLFoundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SPKit/SPKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SPRoutable/SPRoutable.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AnyFormatProtocol/AnyFormatProtocol.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Aquarius/Aquarius.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BLFoundation/BLFoundation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SPKit/SPKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SPRoutable/SPRoutable.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework"
 fi

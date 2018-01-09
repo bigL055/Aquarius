@@ -23,7 +23,7 @@ public struct Aquarius {
         lhs.typeId == rhs.typeId &&
         lhs.index == rhs.index &&
         lhs.id == rhs.id &&
-        lhs.subDict == rhs.subDict
+        lhs.config == rhs.config
     }
     
     /// 宽高比
@@ -35,18 +35,22 @@ public struct Aquarius {
     /// 唯一标识
     public var id: String
     /// 控件内部描述
-    public var subDict: [String: AnyHashable]
+
+    public var config: [String: AnyHashable]
     
     public init(ratio: CGFloat,
                 typeId: String,
                 index: Int,
                 id: String,
-                subDict: [String: AnyHashable]) {
+                config: [String: AnyHashable]) {
       self.ratio = ratio
       self.typeId = typeId
       self.index = index
       self.id = id
-      self.subDict = subDict
+      self.config = config
     }
   }
 }
+
+
+

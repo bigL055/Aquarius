@@ -22,9 +22,9 @@ class AquariusLineCell: UITableViewCell,AquariusProtocol {
     return true
   }
 
-  var dict: [String : AnyHashable] = [:] {
+  var config: [String : AnyHashable] = [:] {
     didSet{
-      self.textLabel?.text = dict["text"] as? String ?? ""
+      self.textLabel?.text = config["text"] as? String ?? ""
     }
   }
 

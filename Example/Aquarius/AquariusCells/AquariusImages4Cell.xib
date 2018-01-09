@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="AquariusImages4Cell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGD-Cm-pfS">
+                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="75"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfQ-yg-ThJ">
+                        <rect key="frame" x="0.0" y="75" width="187.5" height="74.5"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNI-MG-O26">
+                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="75"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJv-gB-cXe">
+                        <rect key="frame" x="187.5" y="75" width="187.5" height="74.5"/>
+                        <state key="normal" title="Button"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="oJv-gB-cXe" firstAttribute="leading" secondItem="cfQ-yg-ThJ" secondAttribute="trailing" id="02V-fT-Pgz"/>
+                    <constraint firstAttribute="bottom" secondItem="oJv-gB-cXe" secondAttribute="bottom" id="69d-b0-bp8"/>
+                    <constraint firstItem="cfQ-yg-ThJ" firstAttribute="trailing" secondItem="YGD-Cm-pfS" secondAttribute="trailing" id="9N9-4A-TJl"/>
+                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BPP-LM-XiG"/>
+                    <constraint firstAttribute="trailing" secondItem="oJv-gB-cXe" secondAttribute="trailing" id="Ekn-bB-kPk"/>
+                    <constraint firstItem="cfQ-yg-ThJ" firstAttribute="top" secondItem="YGD-Cm-pfS" secondAttribute="bottom" id="F0p-Jq-Y1y"/>
+                    <constraint firstItem="cfQ-yg-ThJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GiT-C7-b9L"/>
+                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.5" id="Gt8-jP-ed9"/>
+                    <constraint firstItem="oJv-gB-cXe" firstAttribute="top" secondItem="DNI-MG-O26" secondAttribute="bottom" id="HZV-tu-8NY"/>
+                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IwA-LY-udr"/>
+                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="Nrj-HQ-fq4"/>
+                    <constraint firstItem="DNI-MG-O26" firstAttribute="bottom" secondItem="YGD-Cm-pfS" secondAttribute="bottom" id="PHg-1c-vil"/>
+                    <constraint firstAttribute="bottom" secondItem="cfQ-yg-ThJ" secondAttribute="bottom" id="jrj-h9-XCB"/>
+                    <constraint firstItem="DNI-MG-O26" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="qlt-kF-QMZ"/>
+                    <constraint firstAttribute="trailing" secondItem="DNI-MG-O26" secondAttribute="trailing" id="t8z-sq-Ref"/>
+                    <constraint firstItem="DNI-MG-O26" firstAttribute="leading" secondItem="YGD-Cm-pfS" secondAttribute="trailing" id="yWB-1Q-Vzb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btn0" destination="YGD-Cm-pfS" id="PdX-Qc-Ixt"/>
+                <outlet property="btn1" destination="DNI-MG-O26" id="if4-ih-gtD"/>
+                <outlet property="btn3" destination="cfQ-yg-ThJ" id="9KC-4d-v92"/>
+                <outlet property="btn4" destination="oJv-gB-cXe" id="Pfs-IV-Rg9"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

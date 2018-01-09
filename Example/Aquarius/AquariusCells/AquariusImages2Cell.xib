@@ -13,7 +13,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="180" id="KGk-i7-Jjw" customClass="AquariusHotGoodsCell">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="180" id="KGk-i7-Jjw" customClass="AquariusImages2Cell">
             <rect key="frame" x="0.0" y="0.0" width="320" height="180"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -21,21 +21,30 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sGr-RW-qtm">
-                        <rect key="frame" x="0.0" y="0.0" width="198.5" height="179.5"/>
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="179.5"/>
                         <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="4JN-YA-ru3">
+                        <rect key="frame" x="160" y="0.0" width="160" height="179.5"/>
                     </imageView>
                 </subviews>
                 <color key="backgroundColor" red="0.57414853570000002" green="0.57416242360000003" blue="0.57415497299999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
-                    <constraint firstItem="sGr-RW-qtm" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.618" constant="0.62" id="3Oq-rA-oHJ"/>
+                    <constraint firstItem="4JN-YA-ru3" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="0K0-UQ-RoF"/>
+                    <constraint firstItem="sGr-RW-qtm" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="3Oq-rA-oHJ"/>
                     <constraint firstItem="sGr-RW-qtm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="BEf-OR-poK"/>
                     <constraint firstAttribute="bottom" secondItem="sGr-RW-qtm" secondAttribute="bottom" id="CRA-91-CGl"/>
                     <constraint firstItem="sGr-RW-qtm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="FVl-j1-Zyi"/>
+                    <constraint firstAttribute="trailing" secondItem="4JN-YA-ru3" secondAttribute="trailing" id="Lab-jh-qzk"/>
+                    <constraint firstAttribute="bottom" secondItem="4JN-YA-ru3" secondAttribute="bottom" id="Vy4-4M-1lC"/>
+                    <constraint firstItem="4JN-YA-ru3" firstAttribute="leading" secondItem="sGr-RW-qtm" secondAttribute="trailing" id="i43-7U-zZc"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="imageView1" destination="sGr-RW-qtm" id="Lha-jT-7ls"/>
+                <outlet property="imageView1" destination="sGr-RW-qtm" id="cXc-R4-bUo"/>
+                <outlet property="imageView1widthConstraint" destination="3Oq-rA-oHJ" id="RYs-LV-TQl"/>
+                <outlet property="imageView2" destination="4JN-YA-ru3" id="v6o-Ud-RgL"/>
             </connections>
             <point key="canvasLocation" x="34" y="227"/>
         </tableViewCell>

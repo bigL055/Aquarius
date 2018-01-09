@@ -9,7 +9,7 @@ import UIKit
 
 public protocol AquariusProtocol: class {
   static func verify(dict: [String: AnyHashable]) -> Bool
-  var dict: [String: AnyHashable] { set get }
+  var config: [String: AnyHashable] { set get }
   static var ratio: Double { get }
   static var nib: UINib? { get }
 }
