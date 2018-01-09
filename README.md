@@ -22,7 +22,7 @@ pod 'Aquarius'
 
 ## Author
 
-linger, linhan.bigl055@outlook.com
+linhey, linhan.linhey@outlook.com
 
 ## License
 
