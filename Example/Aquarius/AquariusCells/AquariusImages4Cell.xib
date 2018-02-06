@@ -39,28 +39,30 @@
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="ie5-OH-fD7" firstAttribute="leading" secondItem="YGD-Cm-pfS" secondAttribute="trailing" id="0zY-TI-C8E"/>
-                    <constraint firstAttribute="bottom" secondItem="oJv-gB-cXe" secondAttribute="bottom" id="69d-b0-bp8"/>
-                    <constraint firstItem="oJv-gB-cXe" firstAttribute="height" secondItem="YGD-Cm-pfS" secondAttribute="height" multiplier="0.5" id="9VE-lu-hsR"/>
-                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BPP-LM-XiG"/>
-                    <constraint firstAttribute="trailing" secondItem="oJv-gB-cXe" secondAttribute="trailing" id="Ekn-bB-kPk"/>
-                    <constraint firstItem="oJv-gB-cXe" firstAttribute="top" secondItem="ie5-OH-fD7" secondAttribute="bottom" id="G8X-MQ-fSG"/>
-                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IwA-LY-udr"/>
-                    <constraint firstItem="ie5-OH-fD7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ljn-RM-NR8"/>
-                    <constraint firstItem="oJv-gB-cXe" firstAttribute="leading" secondItem="YGD-Cm-pfS" secondAttribute="trailing" id="WdA-og-fnS"/>
-                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="b4a-rd-DXw"/>
-                    <constraint firstAttribute="trailing" secondItem="oJv-gB-cXe" secondAttribute="trailing" id="cab-OP-kaI"/>
-                    <constraint firstAttribute="bottom" secondItem="YGD-Cm-pfS" secondAttribute="bottom" id="eZ6-rZ-g3e"/>
-                    <constraint firstAttribute="bottom" secondItem="oJv-gB-cXe" secondAttribute="bottom" id="ed7-hb-thD"/>
-                    <constraint firstAttribute="trailing" secondItem="ie5-OH-fD7" secondAttribute="trailing" id="fmN-TX-pk8"/>
-                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="lB5-Yx-JDR"/>
-                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uWg-y4-kbL"/>
+                    <constraint firstItem="oJv-gB-cXe" firstAttribute="top" secondItem="ie5-OH-fD7" secondAttribute="bottom" id="2r0-5o-0HJ"/>
+                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3xO-Zj-xO0"/>
+                    <constraint firstItem="ie5-OH-fD7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="5SH-hM-9gk"/>
+                    <constraint firstAttribute="trailing" secondItem="oJv-gB-cXe" secondAttribute="trailing" id="7Eg-4S-JNd"/>
+                    <constraint firstAttribute="bottom" secondItem="oJv-gB-cXe" secondAttribute="bottom" id="CbC-Yi-r5V"/>
+                    <constraint firstItem="ie5-OH-fD7" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="ILQ-DL-2zx"/>
+                    <constraint firstAttribute="trailing" secondItem="ie5-OH-fD7" secondAttribute="trailing" id="L2k-bM-CFr"/>
+                    <constraint firstItem="oJv-gB-cXe" firstAttribute="leading" secondItem="YGD-Cm-pfS" secondAttribute="trailing" id="ML4-OJ-M4a"/>
+                    <constraint firstAttribute="trailing" secondItem="oJv-gB-cXe" secondAttribute="trailing" id="UHd-uA-H1L"/>
+                    <constraint firstAttribute="bottom" secondItem="YGD-Cm-pfS" secondAttribute="bottom" id="UL9-ta-dyX"/>
+                    <constraint firstItem="oJv-gB-cXe" firstAttribute="top" secondItem="ie5-OH-fD7" secondAttribute="bottom" id="VD5-x9-hjj"/>
+                    <constraint firstItem="oJv-gB-cXe" firstAttribute="leading" secondItem="ie5-OH-fD7" secondAttribute="leading" id="cXM-ww-tPf"/>
+                    <constraint firstAttribute="bottom" secondItem="oJv-gB-cXe" secondAttribute="bottom" id="fci-6a-ONb"/>
+                    <constraint firstItem="ie5-OH-fD7" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.5" id="v6y-Aj-q8X"/>
+                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="wdP-zd-EVB"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="btn0" destination="YGD-Cm-pfS" id="PdX-Qc-Ixt"/>
-                <outlet property="btn4" destination="oJv-gB-cXe" id="Pfs-IV-Rg9"/>
+                <outlet property="btn0" destination="YGD-Cm-pfS" id="KuJ-nK-JZu"/>
+                <outlet property="btn1" destination="ie5-OH-fD7" id="tnn-F8-t4a"/>
+                <outlet property="btn2" destination="oJv-gB-cXe" id="UjI-5P-FLC"/>
+                <outlet property="heightRatio" destination="v6y-Aj-q8X" id="sbG-dW-uPU"/>
+                <outlet property="widthRatio" destination="ILQ-DL-2zx" id="zng-9C-7CT"/>
             </connections>
             <point key="canvasLocation" x="33.5" y="54"/>
         </tableViewCell>

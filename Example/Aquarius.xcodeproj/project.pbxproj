@@ -20,6 +20,7 @@
 		9D1748BF20048F1A00808C5D /* Json+Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748BE20048F1A00808C5D /* Json+Home.swift */; };
 		9D1748C22004A90D00808C5D /* AquariusImages4Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1748C02004A90C00808C5D /* AquariusImages4Cell.swift */; };
 		9D1748C32004A90D00808C5D /* AquariusImages4Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D1748C12004A90D00808C5D /* AquariusImages4Cell.xib */; };
+		CD8B82DE2029C4F9001FF531 /* AquariusCycleScrollCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B82DD2029C4F9001FF531 /* AquariusCycleScrollCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		A1D6F22E3201D71EC92BA466 /* Pods-Aquarius_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquarius_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aquarius_Example/Pods-Aquarius_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A9D43D74355AB096D7871387 /* Pods_Aquarius_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aquarius_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2AA360BBFA796312A1F66A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CD8B82DD2029C4F9001FF531 /* AquariusCycleScrollCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AquariusCycleScrollCell.swift; sourceTree = "<group>"; };
 		DD5E4487BCE96DFDFE598BE8 /* Pods-Aquarius_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquarius_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aquarius_Tests/Pods-Aquarius_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E7E3933F44A7E20DA4741A12 /* Aquarius.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Aquarius.podspec; path = ../Aquarius.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA53DD19380DC0C4C2673FE4 /* Pods-Aquarius_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquarius_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aquarius_Tests/Pods-Aquarius_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				9D1748B120039C5D00808C5D /* AquariusImages2Cell.xib */,
 				9D1748C02004A90C00808C5D /* AquariusImages4Cell.swift */,
 				9D1748C12004A90D00808C5D /* AquariusImages4Cell.xib */,
+				CD8B82DD2029C4F9001FF531 /* AquariusCycleScrollCell.swift */,
 			);
 			path = AquariusCells;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				9D1748B220039C5D00808C5D /* AquariusImages2Cell.swift in Sources */,
 				9D1748C22004A90D00808C5D /* AquariusImages4Cell.swift in Sources */,
 				9D1748BF20048F1A00808C5D /* Json+Home.swift in Sources */,
+				CD8B82DE2029C4F9001FF531 /* AquariusCycleScrollCell.swift in Sources */,
 				9D1748BA20046BFD00808C5D /* Aquarius.swift in Sources */,
 				9D1748B820046BE200808C5D /* AquariusVC.swift in Sources */,
 				9D1748A9200379A700808C5D /* AquariusLineCell.swift in Sources */,

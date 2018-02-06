@@ -7,6 +7,27 @@
 
 import UIKit
 
+extension Dictionary: Hashable {
+
+  public var hashValue: Int {
+    if !JSONSerialization.isValidJSONObject(self) {
+      return self.description.hashValue
+    }
+
+    let list = sorted { (item1, item2) -> Bool in
+      item1.key.hashValue > item2.key.hashValue
+    }
+
+    return list.description.hashValue
+  }
+  
+  public static func ==(lhs: Dictionary<Key, Value>, rhs: Dictionary<Key, Value>) -> Bool {
+    return lhs.hashValue == rhs.hashValue
+  }
+
+}
+
+
 public struct Aquarius {
   
   public static var cellPrefix = "Aquarius"
