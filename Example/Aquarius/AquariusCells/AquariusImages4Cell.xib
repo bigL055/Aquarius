@@ -21,48 +21,48 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGD-Cm-pfS">
-                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="75"/>
-                        <state key="normal" title="Button"/>
-                    </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfQ-yg-ThJ">
-                        <rect key="frame" x="0.0" y="75" width="187.5" height="74.5"/>
-                        <state key="normal" title="Button"/>
-                    </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNI-MG-O26">
-                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="75"/>
+                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="149.5"/>
+                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <state key="normal" title="Button"/>
                     </button>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJv-gB-cXe">
                         <rect key="frame" x="187.5" y="75" width="187.5" height="74.5"/>
+                        <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="Button">
+                            <color key="titleShadowColor" red="0.93662446740000005" green="0.59030759330000004" blue="0.23916244510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ie5-OH-fD7">
+                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="75"/>
+                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <state key="normal" title="Button"/>
                     </button>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="oJv-gB-cXe" firstAttribute="leading" secondItem="cfQ-yg-ThJ" secondAttribute="trailing" id="02V-fT-Pgz"/>
+                    <constraint firstItem="ie5-OH-fD7" firstAttribute="leading" secondItem="YGD-Cm-pfS" secondAttribute="trailing" id="0zY-TI-C8E"/>
                     <constraint firstAttribute="bottom" secondItem="oJv-gB-cXe" secondAttribute="bottom" id="69d-b0-bp8"/>
-                    <constraint firstItem="cfQ-yg-ThJ" firstAttribute="trailing" secondItem="YGD-Cm-pfS" secondAttribute="trailing" id="9N9-4A-TJl"/>
+                    <constraint firstItem="oJv-gB-cXe" firstAttribute="height" secondItem="YGD-Cm-pfS" secondAttribute="height" multiplier="0.5" id="9VE-lu-hsR"/>
                     <constraint firstItem="YGD-Cm-pfS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BPP-LM-XiG"/>
                     <constraint firstAttribute="trailing" secondItem="oJv-gB-cXe" secondAttribute="trailing" id="Ekn-bB-kPk"/>
-                    <constraint firstItem="cfQ-yg-ThJ" firstAttribute="top" secondItem="YGD-Cm-pfS" secondAttribute="bottom" id="F0p-Jq-Y1y"/>
-                    <constraint firstItem="cfQ-yg-ThJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="GiT-C7-b9L"/>
-                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="height" secondItem="H2p-sc-9uM" secondAttribute="height" multiplier="0.5" id="Gt8-jP-ed9"/>
-                    <constraint firstItem="oJv-gB-cXe" firstAttribute="top" secondItem="DNI-MG-O26" secondAttribute="bottom" id="HZV-tu-8NY"/>
+                    <constraint firstItem="oJv-gB-cXe" firstAttribute="top" secondItem="ie5-OH-fD7" secondAttribute="bottom" id="G8X-MQ-fSG"/>
                     <constraint firstItem="YGD-Cm-pfS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="IwA-LY-udr"/>
-                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="Nrj-HQ-fq4"/>
-                    <constraint firstItem="DNI-MG-O26" firstAttribute="bottom" secondItem="YGD-Cm-pfS" secondAttribute="bottom" id="PHg-1c-vil"/>
-                    <constraint firstAttribute="bottom" secondItem="cfQ-yg-ThJ" secondAttribute="bottom" id="jrj-h9-XCB"/>
-                    <constraint firstItem="DNI-MG-O26" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="qlt-kF-QMZ"/>
-                    <constraint firstAttribute="trailing" secondItem="DNI-MG-O26" secondAttribute="trailing" id="t8z-sq-Ref"/>
-                    <constraint firstItem="DNI-MG-O26" firstAttribute="leading" secondItem="YGD-Cm-pfS" secondAttribute="trailing" id="yWB-1Q-Vzb"/>
+                    <constraint firstItem="ie5-OH-fD7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ljn-RM-NR8"/>
+                    <constraint firstItem="oJv-gB-cXe" firstAttribute="leading" secondItem="YGD-Cm-pfS" secondAttribute="trailing" id="WdA-og-fnS"/>
+                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="b4a-rd-DXw"/>
+                    <constraint firstAttribute="trailing" secondItem="oJv-gB-cXe" secondAttribute="trailing" id="cab-OP-kaI"/>
+                    <constraint firstAttribute="bottom" secondItem="YGD-Cm-pfS" secondAttribute="bottom" id="eZ6-rZ-g3e"/>
+                    <constraint firstAttribute="bottom" secondItem="oJv-gB-cXe" secondAttribute="bottom" id="ed7-hb-thD"/>
+                    <constraint firstAttribute="trailing" secondItem="ie5-OH-fD7" secondAttribute="trailing" id="fmN-TX-pk8"/>
+                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="lB5-Yx-JDR"/>
+                    <constraint firstItem="YGD-Cm-pfS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="uWg-y4-kbL"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="btn0" destination="YGD-Cm-pfS" id="PdX-Qc-Ixt"/>
-                <outlet property="btn1" destination="DNI-MG-O26" id="if4-ih-gtD"/>
-                <outlet property="btn3" destination="cfQ-yg-ThJ" id="9KC-4d-v92"/>
                 <outlet property="btn4" destination="oJv-gB-cXe" id="Pfs-IV-Rg9"/>
             </connections>
+            <point key="canvasLocation" x="33.5" y="54"/>
         </tableViewCell>
     </objects>
 </document>

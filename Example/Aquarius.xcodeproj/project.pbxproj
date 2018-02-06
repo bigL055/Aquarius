@@ -44,7 +44,7 @@
 		A9D43D74355AB096D7871387 /* Pods_Aquarius_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aquarius_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2AA360BBFA796312A1F66A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DD5E4487BCE96DFDFE598BE8 /* Pods-Aquarius_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquarius_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aquarius_Tests/Pods-Aquarius_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E7E3933F44A7E20DA4741A12 /* Aquarius.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Aquarius.podspec; path = ../Aquarius.podspec; sourceTree = "<group>"; };
+		E7E3933F44A7E20DA4741A12 /* Aquarius.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Aquarius.podspec; path = ../Aquarius.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA53DD19380DC0C4C2673FE4 /* Pods-Aquarius_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aquarius_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aquarius_Tests/Pods-Aquarius_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

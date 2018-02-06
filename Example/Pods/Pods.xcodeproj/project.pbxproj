@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01FA407508C39A3D1B7BFF8264EB863B /* AquariusDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEBA2493A08535D7FC14286682A4E93C /* AquariusDataSource.swift */; };
+		01FA407508C39A3D1B7BFF8264EB863B /* AquariusDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 489DC28031A37ED4E3D77F42B03F247B /* AquariusDataSource.swift */; };
 		03BA9236060F93C2C233DE30403869F6 /* SP+UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928DC5ADB3EF185F493B6631C217799E /* SP+UIControl.swift */; };
 		047C4D945343F46AFF1273DE29F8A290 /* ImageView+Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A85AC3466D838D63F16DC2FA27E0149 /* ImageView+Kingfisher.swift */; };
 		08B7CDCE8728C759377DB88A30C7BED2 /* Typealiases.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C79D87FEEFBFFFE096C50E240E36EBE /* Typealiases.swift */; };
 		09A0DDE1726C527699A0C0F53482505B /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C254296F98DBBEB4B318AC0CE880B2D1 /* AnimatedImageView.swift */; };
-		0A4B0C1C163B293FEE4C847BA12519FC /* AquariusProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484E75F0CDA83F6775CEB556EC2A0FB /* AquariusProtocol.swift */; };
+		0A4B0C1C163B293FEE4C847BA12519FC /* AquariusProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25CB69D27DC26BF433D10471E721DC3 /* AquariusProtocol.swift */; };
 		0B28BB48EB9C6D93DC823081135D770B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9F6BAB69CF9E254BF46C40AE56976D /* Foundation.framework */; };
 		0CA6357476373C221D44C498AA1D65FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C9F6BAB69CF9E254BF46C40AE56976D /* Foundation.framework */; };
 		0F755ADCEAA8BF40FF7BECCBD8B5310B /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D932FDFBC54765A782BD83E434CBA6C2 /* ImageDownloader.swift */; };
@@ -96,16 +96,16 @@
 		9851379E759FE2B4D2FD1DE9714F5BAB /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99ED105E87FD91F5AAC5D2831ADE509 /* ConstraintMaker.swift */; };
 		991A0CE57B38D27B42183AA70ABD5C66 /* SP+UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35262987E3A50A578BB4FB984674F9A4 /* SP+UIView+Frame.swift */; };
 		99A8C7B7AC77B0CC1B77A24BA67B9263 /* SP+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 666EEC27475C18323EFAD8113A66F69D /* SP+UIView.swift */; };
-		9C8FDD5CADE6DF166CC26144C707ADA2 /* Aquarius.h in Headers */ = {isa = PBXBuildFile; fileRef = E525F92E9CE9026B84B6048457B0238B /* Aquarius.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A04EEF2199BB5165FA60974B0B146099 /* Aquarius-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8B1D94F7F6046DA1D35BBF6F92E3D3 /* Aquarius-dummy.m */; };
+		9C8FDD5CADE6DF166CC26144C707ADA2 /* Aquarius.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D5B0550AF2D8197C9F0B676A7055EA6 /* Aquarius.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A04EEF2199BB5165FA60974B0B146099 /* Aquarius-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A542EB21A324761131E6BD4AA431D39 /* Aquarius-dummy.m */; };
 		A0879A2D60EFCE27B278E4C2D602FF62 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71547B9A1DA0E9C246EEF9D263DC8B52 /* ConstraintRelation.swift */; };
 		A1948DAA6543BDBB189C8EA927E1E11E /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDA2A9FA10727AD9BB6565D843AE8F8B /* ConstraintInsetTarget.swift */; };
-		A3593C5D1808CD84924DC3089D02E6C9 /* Aquarius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B05E49EB2AD5573EA7FB7E799B35EBA /* Aquarius.swift */; };
+		A3593C5D1808CD84924DC3089D02E6C9 /* Aquarius.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE52D8F9F9E8C97B7CFFBE91FED22C14 /* Aquarius.swift */; };
 		A8096F51DB82ADD9F002809E064F98F9 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBAA28CAEB17FC49345CE9A12FEE042 /* Indicator.swift */; };
 		A9EAFC2B996A951D7AA2CCDED1788ABD /* Bool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309029711BE96C2484CE5636FD654C23 /* Bool.swift */; };
 		AA276321E3A96169B102E2B4EFF4F02D /* CacheSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBE7EB6C602991B24D0AB24C100D55 /* CacheSerializer.swift */; };
 		AD9DA4859BBCD90DEA14D0CFAE031DB6 /* Routable.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C88B7B068C782C7F312690893685B81 /* Routable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF1866CC2EAE6EB61193C141A542A2E9 /* AquariusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058AEFA18A8FAEBF51880FB75FD5CBEB /* AquariusCell.swift */; };
+		AF1866CC2EAE6EB61193C141A542A2E9 /* AquariusCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7325D78919D9E705DE09703C85A5A589 /* AquariusCell.swift */; };
 		B3C03F55331DFFE139CBC3A0D175076C /* AnyFormatProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D43304C80EC88614C6BB3F0DBB473767 /* AnyFormatProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA4CBE4C2D2F48E282E4D2471891542E /* SP+CALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A91AC915BBD859F23B0312AC2BEA6D1 /* SP+CALayer.swift */; };
 		BB2B46199206EEEAD160E2B740FCB501 /* Pods-Aquarius_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E5EE455D34E2929C75924BFB69FAD9F /* Pods-Aquarius_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -127,7 +127,7 @@
 		D6828B6B9A1B7A5A64E2CE2A4331BCC0 /* BLFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E17BF6825BB9E268CC780C936D33BFDB /* BLFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D72C549102EC2690359D49E27E51F550 /* Int+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4058D756160C1CA21EB90C829F6110 /* Int+Timepiece.swift */; };
 		D8A394F90FD16D5F206BFF5203B204D2 /* Int.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E6EEEDA4C670FC9FEBD68A125170AC /* Int.swift */; };
-		DA2F898A912A778A59258DD3CD675892 /* AquariusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD4D4412175CE297AF7643D2D836567 /* AquariusView.swift */; };
+		DA2F898A912A778A59258DD3CD675892 /* AquariusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 937BBDB35BE342B4927C194005BDD039 /* AquariusView.swift */; };
 		DA640F3DEE701AE56880769CF098751B /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6B53829D7A3553ADB1F91182130CAB /* ConstraintDescription.swift */; };
 		DDEB842FEBE3C62C90C43647E7235FCD /* SnapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8308B936B6DB69C2FB1DC76364A21BA3 /* SnapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E0DC63E3FEA808360D265AC495098144 /* String+MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D5BB2DF303F880D9681002400CA04CF /* String+MD5.swift */; };
@@ -139,10 +139,10 @@
 		EC01CD07D128EF5BC41D74FDC3B89C86 /* BLFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F0C1D8DF38D85DBEFC9DC1C79DE3881 /* BLFoundation-dummy.m */; };
 		EDB9F44212B1107D22F03DB2A144E97E /* BLFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = BDE958778422315555DB817BAC138EFE /* BLFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EE0171263DB651025D75514D1D86F961 /* SP+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DEAADA92D443EC4596FA789324BB83 /* SP+Swizzling.swift */; };
-		EF4CFF386D08DC815573BC810F5213BE /* Aquarius-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A38834F30CAFD4F8394A1125E47B0A7 /* Aquarius-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF4CFF386D08DC815573BC810F5213BE /* Aquarius-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FE1E1BF6C62C977A5BD6C1E326F5D6E /* Aquarius-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EFE05AB6D6317C84A90086353C57A079 /* DateComponents+Timepiece.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AE28C0312E3FF604FD36499FE0F0A5 /* DateComponents+Timepiece.swift */; };
 		F0F8F89FB6046CE65CECF3D4C78F0753 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DE0332691D097894023375C8F090BD /* ConstraintLayoutGuideDSL.swift */; };
-		F2AFEE349760D715F3E8F8EB3992F8B8 /* AquariusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25531DDA57E37E75E355F0D85E39ADF4 /* AquariusViewController.swift */; };
+		F2AFEE349760D715F3E8F8EB3992F8B8 /* AquariusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FCB8C6C166038CFC42A5F7FFD53DC /* AquariusViewController.swift */; };
 		F77D1E5FCDB698567E5BA85C9435FDAC /* SP+NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10FD8FB7583ADC28F35BA6B29C02E7 /* SP+NSLayoutConstraint.swift */; };
 		F925A6CDEAF47CA1A16F54F5E7EB84D0 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4A2F060640E221579917CF74C3737A /* ConstraintDSL.swift */; };
 		F949B79CF0DE1A67721B764EC95D20AD /* Kingfisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25B74BEA1571E41F39B1ADC11695A39 /* Kingfisher.swift */; };
@@ -212,32 +212,33 @@
 		0086292C6F64F4A18BA458AC0F014A92 /* SP+NavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+NavigationController.swift"; path = "Sources/SP+NavigationController.swift"; sourceTree = "<group>"; };
 		04C0CDB95E5EACC6684F008D0A87392E /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/Date/Date.swift; sourceTree = "<group>"; };
 		05434D05173F98E3FE730EEC6B36B662 /* Date+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Timepiece.swift"; path = "Sources/Date/Date+Timepiece.swift"; sourceTree = "<group>"; };
-		058AEFA18A8FAEBF51880FB75FD5CBEB /* AquariusCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusCell.swift; path = Sources/AquariusCell.swift; sourceTree = "<group>"; };
 		0609D6B35D0D74C48FEEFDDE5A3984E1 /* SPKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPKit-umbrella.h"; sourceTree = "<group>"; };
 		09099AAA7D75E442E52F30179D4E4290 /* Pods-Aquarius_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aquarius_Example-dummy.m"; sourceTree = "<group>"; };
 		09316F8A1B53412534C1E951438E93D7 /* RunTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RunTime.swift; path = Sources/Tools/RunTime.swift; sourceTree = "<group>"; };
 		0BA5CDBDC075A0DA3FEB23C486D88702 /* Debugging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Debugging.swift; path = Source/Debugging.swift; sourceTree = "<group>"; };
 		0CE36DBBC8F9E7BB4CE4BE354A45A2BA /* String+format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+format.swift"; path = "Sources/String/String+format.swift"; sourceTree = "<group>"; };
+		0D8CB9E6A670349179B7B9FA2CBD2FFA /* Aquarius-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aquarius-prefix.pch"; sourceTree = "<group>"; };
 		10288F0ECC2A597604CD3A1F4CCD747E /* Pods_Aquarius_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aquarius_Example.framework; path = "Pods-Aquarius_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		104742F2778C17262F7A6409A89BA102 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintConstantTarget.swift; path = Source/ConstraintConstantTarget.swift; sourceTree = "<group>"; };
 		1188DFF6A1482DA3BAC6C9F92E4DA15C /* SPRoutable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPRoutable-prefix.pch"; sourceTree = "<group>"; };
 		1812D58B54B8D38906FFF4AB3841BFAA /* LayoutConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutConstraint.swift; path = Source/LayoutConstraint.swift; sourceTree = "<group>"; };
+		182D0EF40987161EB51BF2EB9D76E195 /* Aquarius.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Aquarius.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		182DCC2539E780B5914BCAC51912DF87 /* Pods-Aquarius_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aquarius_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		184E41B687D1FFA382EC405DCEEF8DDA /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintViewDSL.swift; path = Source/ConstraintViewDSL.swift; sourceTree = "<group>"; };
 		1A25480A5C1D4EB949FB0616F26D840B /* SP+ViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+ViewController.swift"; path = "Sources/SP+ViewController.swift"; sourceTree = "<group>"; };
 		1E5EE455D34E2929C75924BFB69FAD9F /* Pods-Aquarius_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aquarius_Example-umbrella.h"; sourceTree = "<group>"; };
 		20E2B71980B97601052330D66F7FE951 /* Aquarius.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Aquarius.framework; path = Aquarius.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FF04D6DE9CF93DD8FDCF2D31E5A6B5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		223073F0EECD2783BABB9529A2EDDD15 /* FormatIndicatedCacheSerializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormatIndicatedCacheSerializer.swift; path = Sources/FormatIndicatedCacheSerializer.swift; sourceTree = "<group>"; };
 		23E79224C39F571008E4130407CC1B2A /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMultiplierTarget.swift; path = Source/ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
 		2476A4DA8ED0186C5E9A3BC58A819683 /* ConstraintLayoutGuide+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ConstraintLayoutGuide+Extensions.swift"; path = "Source/ConstraintLayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
-		25531DDA57E37E75E355F0D85E39ADF4 /* AquariusViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusViewController.swift; path = Sources/AquariusViewController.swift; sourceTree = "<group>"; };
 		268F61E2A4F64A1E116C452321013F44 /* BLFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BLFoundation.framework; path = BLFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A38834F30CAFD4F8394A1125E47B0A7 /* Aquarius-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aquarius-umbrella.h"; sourceTree = "<group>"; };
 		2C5BB6F376019565D26FE7DF5C772271 /* String+Timepiece.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Timepiece.swift"; path = "Sources/Date/String+Timepiece.swift"; sourceTree = "<group>"; };
 		2C88B7B068C782C7F312690893685B81 /* Routable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Routable.h; path = Sources/Routable.h; sourceTree = "<group>"; };
 		2DBAA28CAEB17FC49345CE9A12FEE042 /* Indicator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Indicator.swift; path = Sources/Indicator.swift; sourceTree = "<group>"; };
 		2E97D748F3976E8193D2D69DFDF84AB1 /* ImagePrefetcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImagePrefetcher.swift; path = Sources/ImagePrefetcher.swift; sourceTree = "<group>"; };
 		2EC3AD2DFAA530E0F7E0084BF3332F86 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerFinalizable.swift; path = Source/ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		2F2383644764F9125ACCE4B865351D0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		309029711BE96C2484CE5636FD654C23 /* Bool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bool.swift; path = Sources/Number/Bool.swift; sourceTree = "<group>"; };
 		311C472E39E988C20FC0D7BA072C1819 /* SP+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+Extension.swift"; path = "Sources/SP+Extension.swift"; sourceTree = "<group>"; };
 		34881B2DA71304F0646E46158F5C3BE5 /* Pods-Aquarius_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aquarius_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -257,9 +258,10 @@
 		40185DF63EDF5E1EA72D887A5BBDB907 /* Pods-Aquarius_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aquarius_Example-frameworks.sh"; sourceTree = "<group>"; };
 		444DE45F50EEEAC3C558EAC914C588E4 /* Placeholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Placeholder.swift; path = Sources/Placeholder.swift; sourceTree = "<group>"; };
 		45ACABD007F995400DECC4BF464CBA72 /* AnyFormatProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AnyFormatProtocol.framework; path = AnyFormatProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		483FCB8C6C166038CFC42A5F7FFD53DC /* AquariusViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusViewController.swift; path = Sources/AquariusViewController.swift; sourceTree = "<group>"; };
+		489DC28031A37ED4E3D77F42B03F247B /* AquariusDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusDataSource.swift; path = Sources/AquariusDataSource.swift; sourceTree = "<group>"; };
 		48E6EEEDA4C670FC9FEBD68A125170AC /* Int.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Int.swift; path = Sources/Number/Int.swift; sourceTree = "<group>"; };
 		4AD31BACF15DAE6162BF7F897D703F04 /* SnapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-prefix.pch"; sourceTree = "<group>"; };
-		4AD4D4412175CE297AF7643D2D836567 /* AquariusView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusView.swift; path = Sources/AquariusView.swift; sourceTree = "<group>"; };
 		4CE23F61CDCCE7664A53F7CA98B96E4C /* String+substring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+substring.swift"; path = "Sources/String/String+substring.swift"; sourceTree = "<group>"; };
 		4CF35EB87EF27CD9981F0EE8DBA98531 /* Kingfisher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kingfisher-prefix.pch"; sourceTree = "<group>"; };
 		4DEF70E227E94AF5C8FBD2A1153CA037 /* SnapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SnapKit.xcconfig; sourceTree = "<group>"; };
@@ -277,9 +279,7 @@
 		666EEC27475C18323EFAD8113A66F69D /* SP+UIView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+UIView.swift"; path = "Sources/SP+UIView.swift"; sourceTree = "<group>"; };
 		66E22DBC85AEBAE1A6975D81DDF9CB68 /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String/String+MD5.swift"; sourceTree = "<group>"; };
 		6A91AC915BBD859F23B0312AC2BEA6D1 /* SP+CALayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+CALayer.swift"; path = "Sources/SP+CALayer.swift"; sourceTree = "<group>"; };
-		6B05E49EB2AD5573EA7FB7E799B35EBA /* Aquarius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aquarius.swift; path = Sources/Aquarius.swift; sourceTree = "<group>"; };
 		6C40CF478F6CF73206518AEA0F4F2A88 /* Pods-Aquarius_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aquarius_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6C8F6737F3991DDCFC5C382FC1C387E1 /* Aquarius.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aquarius.xcconfig; sourceTree = "<group>"; };
 		6C9F6BAB69CF9E254BF46C40AE56976D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D2C81E7232BD4B9488E852AD13E546D /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriorityTarget.swift; path = Source/ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
 		6F1DD61CF4450019E153FE8D6B7A90E0 /* SP+UIApplication.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+UIApplication.swift"; path = "Sources/SP+UIApplication.swift"; sourceTree = "<group>"; };
@@ -287,13 +287,14 @@
 		71DEAADA92D443EC4596FA789324BB83 /* SP+Swizzling.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+Swizzling.swift"; path = "Sources/SP+Swizzling.swift"; sourceTree = "<group>"; };
 		71E01C2DCF4417A4AAD45ADBCA53A741 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupportDSL.swift; path = Source/ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
 		72B971CAD314E76B2F4DBD326D77E6A6 /* SPRoutable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SPRoutable.modulemap; sourceTree = "<group>"; };
-		7484E75F0CDA83F6775CEB556EC2A0FB /* AquariusProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusProtocol.swift; path = Sources/AquariusProtocol.swift; sourceTree = "<group>"; };
+		7325D78919D9E705DE09703C85A5A589 /* AquariusCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusCell.swift; path = Sources/AquariusCell.swift; sourceTree = "<group>"; };
 		74B224DD64BE6C8D4BBB19A2D0CB1EDE /* AnyFormatProtocol.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AnyFormatProtocol.modulemap; sourceTree = "<group>"; };
 		75D6B4F48610F98C36C5AFCFAEBABE0F /* ConstraintPriority.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintPriority.swift; path = Source/ConstraintPriority.swift; sourceTree = "<group>"; };
 		7A85AC3466D838D63F16DC2FA27E0149 /* ImageView+Kingfisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ImageView+Kingfisher.swift"; path = "Sources/ImageView+Kingfisher.swift"; sourceTree = "<group>"; };
 		7B56935A9AD130EB0B2EBD37F55CE787 /* Kingfisher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kingfisher.h; path = Sources/Kingfisher.h; sourceTree = "<group>"; };
 		7C6501B962C3B0B7F1B9D5A003EDFB69 /* Array.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Array.swift; path = Sources/Data/Array.swift; sourceTree = "<group>"; };
 		7D5BB2DF303F880D9681002400CA04CF /* String+MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+MD5.swift"; path = "Sources/String+MD5.swift"; sourceTree = "<group>"; };
+		7FE1E1BF6C62C977A5BD6C1E326F5D6E /* Aquarius-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aquarius-umbrella.h"; sourceTree = "<group>"; };
 		816C59C61FDA3B2E372F142E597D197D /* BLFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLFoundation-prefix.pch"; sourceTree = "<group>"; };
 		8308B936B6DB69C2FB1DC76364A21BA3 /* SnapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SnapKit-umbrella.h"; sourceTree = "<group>"; };
 		8319EF5AE9587B4F535ABCD0C5D6872B /* Data.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Data.swift; path = Sources/Data/Data.swift; sourceTree = "<group>"; };
@@ -306,27 +307,30 @@
 		89146F3322D6743C1E74A92E895B79EB /* SP+UIButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+UIButton.swift"; path = "Sources/SP+UIButton.swift"; sourceTree = "<group>"; };
 		89C2D25BD13E204C2B6B98940FEDC482 /* Kingfisher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kingfisher.xcconfig; sourceTree = "<group>"; };
 		8A4A2F060640E221579917CF74C3737A /* ConstraintDSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintDSL.swift; path = Source/ConstraintDSL.swift; sourceTree = "<group>"; };
+		8A542EB21A324761131E6BD4AA431D39 /* Aquarius-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aquarius-dummy.m"; sourceTree = "<group>"; };
 		8B53F8291AA698310E6D326005CDD298 /* String+match.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+match.swift"; path = "Sources/String/String+match.swift"; sourceTree = "<group>"; };
 		8C7CFBFFC29F8D007C3E9899B2FAA4CD /* Routable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Routable.swift; path = Sources/Routable.swift; sourceTree = "<group>"; };
 		8CFA97204E517313B4D6B3CB1AA7EFC3 /* SPKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SPKit.xcconfig; sourceTree = "<group>"; };
 		8F0C1D8DF38D85DBEFC9DC1C79DE3881 /* BLFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BLFoundation-dummy.m"; sourceTree = "<group>"; };
 		91114899C16103900265536A328DF38C /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintRelatableTarget.swift; path = Source/ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
 		928DC5ADB3EF185F493B6631C217799E /* SP+UIControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+UIControl.swift"; path = "Sources/SP+UIControl.swift"; sourceTree = "<group>"; };
+		937BBDB35BE342B4927C194005BDD039 /* AquariusView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusView.swift; path = Sources/AquariusView.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93C09C3EEE22229FAD5B0935B0861948 /* BLFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BLFoundation.xcconfig; sourceTree = "<group>"; };
 		93D632439A36A37C2F36A493591477F6 /* Character.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Character.swift; path = Sources/String/Character.swift; sourceTree = "<group>"; };
-		949AC128A5634C889E8D67639FFFC3B0 /* Aquarius.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Aquarius.modulemap; sourceTree = "<group>"; };
 		951961265E073464DC3910AA47D3B509 /* SP+CGRect.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+CGRect.swift"; path = "Sources/SP+CGRect.swift"; sourceTree = "<group>"; };
 		95A6936CCCC6FC7244E23D6E7C14FE48 /* SP+UIColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+UIColor.swift"; path = "Sources/SP+UIColor.swift"; sourceTree = "<group>"; };
+		961578A8CD4EC047FA0AC0D81A4B8367 /* Aquarius.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Aquarius.xcconfig; sourceTree = "<group>"; };
 		96A14AD9D97484DC029A416739D33CC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96F862299A9A1DAF06B6E0AD78C4DC83 /* String+format.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+format.swift"; path = "Sources/String+format.swift"; sourceTree = "<group>"; };
 		9A3A088955897E7A44C35CE045D45C85 /* String+operator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+operator.swift"; path = "Sources/String/String+operator.swift"; sourceTree = "<group>"; };
 		9B38733E2EF226FAFDF5776ED03FF7E5 /* SPRoutable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPRoutable-dummy.m"; sourceTree = "<group>"; };
-		9BDD73950B93EEF2EB69EBE2B24EDA4D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CFDF1F65C8EB23DDDEA3752D944CA2B /* Regex+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Regex+Extension.swift"; path = "Sources/String/Regex+Extension.swift"; sourceTree = "<group>"; };
+		9D5B0550AF2D8197C9F0B676A7055EA6 /* Aquarius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Aquarius.h; path = Sources/Aquarius.h; sourceTree = "<group>"; };
 		9E1DB098D952165E6564A4356285CB68 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintLayoutSupport.swift; path = Source/ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
 		A042A6E2E422EB97F00AAE0B6E87D172 /* SP+Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+Device.swift"; path = "Sources/SP+Device.swift"; sourceTree = "<group>"; };
 		A13877FD6375BA0655C6F96707691834 /* Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Image.swift; path = Sources/Image.swift; sourceTree = "<group>"; };
+		A25CB69D27DC26BF433D10471E721DC3 /* AquariusProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusProtocol.swift; path = Sources/AquariusProtocol.swift; sourceTree = "<group>"; };
 		A2ABA5710D9A8B78BD2F9F9CA775180A /* SPKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SPKit-prefix.pch"; sourceTree = "<group>"; };
 		A35C41D27FF0D24750D022C31AD5BA85 /* Pods-Aquarius_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Aquarius_Example-resources.sh"; sourceTree = "<group>"; };
 		A608C1C738212480175F28B4A7DE6257 /* Pods-Aquarius_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Aquarius_Example.modulemap"; sourceTree = "<group>"; };
@@ -351,6 +355,7 @@
 		CB4CE8C7986F31D470ECEFBA2B69B042 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0534E4687E7276FCAE57493790F0C5 /* SPKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPKit.h; path = Sources/SPKit.h; sourceTree = "<group>"; };
 		CC33E565CB40610C67358144F574A730 /* ImageTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageTransition.swift; path = Sources/ImageTransition.swift; sourceTree = "<group>"; };
+		CD0F45D75F0D658E16BB7F3EC0AB742A /* Aquarius.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Aquarius.modulemap; sourceTree = "<group>"; };
 		D28E23B981A7D58D703678C1C9C87318 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintAttributes.swift; path = Source/ConstraintAttributes.swift; sourceTree = "<group>"; };
 		D43304C80EC88614C6BB3F0DBB473767 /* AnyFormatProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyFormatProtocol.h; path = Sources/AnyFormatProtocol.h; sourceTree = "<group>"; };
 		D43EB517A8CD3E51C7444EAC6E4B7BF5 /* CharacterSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterSet.swift; path = Sources/String/CharacterSet.swift; sourceTree = "<group>"; };
@@ -364,14 +369,14 @@
 		DDEF0CF4D3520914121E2E74E3ED21DC /* SPKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SPKit-dummy.m"; sourceTree = "<group>"; };
 		DEBED5FA1828739C67B0B21113125381 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Filter.swift; sourceTree = "<group>"; };
 		DF1CD9DCF7DCD3F7214EAC94E873991D /* ImageProcessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageProcessor.swift; path = Sources/ImageProcessor.swift; sourceTree = "<group>"; };
-		E0BF6D13E623C1221EBF3BD05A99A7AA /* Aquarius-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Aquarius-prefix.pch"; sourceTree = "<group>"; };
 		E17BF6825BB9E268CC780C936D33BFDB /* BLFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BLFoundation-umbrella.h"; sourceTree = "<group>"; };
 		E432CBE0A5440DF935CF464BE1CC3F67 /* Dictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Dictionary.swift; path = Sources/Data/Dictionary.swift; sourceTree = "<group>"; };
-		E525F92E9CE9026B84B6048457B0238B /* Aquarius.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Aquarius.h; path = Sources/Aquarius.h; sourceTree = "<group>"; };
 		E7A26F3AE27454D42E03F5D888F09E33 /* AnyFormatProtocol-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatProtocol-prefix.pch"; sourceTree = "<group>"; };
 		E8F1B274BDB91E2D1786753571FF2F76 /* SP+UICell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SP+UICell.swift"; path = "Sources/SP+UICell.swift"; sourceTree = "<group>"; };
 		E97CB5D96467C26494D2E61A1DA797D4 /* ConstraintView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintView.swift; path = Source/ConstraintView.swift; sourceTree = "<group>"; };
 		EDA2A9FA10727AD9BB6565D843AE8F8B /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintInsetTarget.swift; path = Source/ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		EE52D8F9F9E8C97B7CFFBE91FED22C14 /* Aquarius.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Aquarius.swift; path = Sources/Aquarius.swift; sourceTree = "<group>"; };
+		EE56AFC7D39035ED4B25E2EE6098D735 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF5037F0A3C81D46055C10AC608FEC29 /* AnyFormatProtocol.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnyFormatProtocol.xcconfig; sourceTree = "<group>"; };
 		F0DFB53EC7698C3E419F43CB51A07E7E /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConstraintMakerRelatable.swift; path = Source/ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
 		F186A3C75C2C93BF5F400E43B9E562AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -385,8 +390,6 @@
 		F8190C2ACEAA1A815F4336769EF13991 /* Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constraint.swift; path = Source/Constraint.swift; sourceTree = "<group>"; };
 		FA00BC3A42F3F509F6A98E1985FC378F /* AnyFormatProtocol-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnyFormatProtocol-umbrella.h"; sourceTree = "<group>"; };
 		FBE556DC0A4D699A7DD2EFA5B1690CEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		FC8B1D94F7F6046DA1D35BBF6F92E3D3 /* Aquarius-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Aquarius-dummy.m"; sourceTree = "<group>"; };
-		FEBA2493A08535D7FC14286682A4E93C /* AquariusDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AquariusDataSource.swift; path = Sources/AquariusDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -487,6 +490,20 @@
 			name = Number;
 			sourceTree = "<group>";
 		};
+		15F6493FA17F83293256CA5F0AF69A91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0F45D75F0D658E16BB7F3EC0AB742A /* Aquarius.modulemap */,
+				961578A8CD4EC047FA0AC0D81A4B8367 /* Aquarius.xcconfig */,
+				8A542EB21A324761131E6BD4AA431D39 /* Aquarius-dummy.m */,
+				0D8CB9E6A670349179B7B9FA2CBD2FFA /* Aquarius-prefix.pch */,
+				7FE1E1BF6C62C977A5BD6C1E326F5D6E /* Aquarius-umbrella.h */,
+				EE56AFC7D39035ED4B25E2EE6098D735 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Aquarius";
+			sourceTree = "<group>";
+		};
 		21091CCB53DA5AF7D85D603BEDE8B6AD /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -581,6 +598,23 @@
 			path = SnapKit;
 			sourceTree = "<group>";
 		};
+		32D35ACD0B8A6A724EE6CDA3DD7CB414 /* Aquarius */ = {
+			isa = PBXGroup;
+			children = (
+				9D5B0550AF2D8197C9F0B676A7055EA6 /* Aquarius.h */,
+				EE52D8F9F9E8C97B7CFFBE91FED22C14 /* Aquarius.swift */,
+				7325D78919D9E705DE09703C85A5A589 /* AquariusCell.swift */,
+				489DC28031A37ED4E3D77F42B03F247B /* AquariusDataSource.swift */,
+				A25CB69D27DC26BF433D10471E721DC3 /* AquariusProtocol.swift */,
+				937BBDB35BE342B4927C194005BDD039 /* AquariusView.swift */,
+				483FCB8C6C166038CFC42A5F7FFD53DC /* AquariusViewController.swift */,
+				B204376E34EDC6DAE60989E5E0F7B9A8 /* Pod */,
+				15F6493FA17F83293256CA5F0AF69A91 /* Support Files */,
+			);
+			name = Aquarius;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		389F3BE65B03068228DA6F5F00BB0E63 /* AnyFormatProtocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -629,14 +663,6 @@
 			name = Data;
 			sourceTree = "<group>";
 		};
-		6D4402E3061318B972BDBE088D7F1A4C /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				85D4803677CB6F55D994E57E3A439EAB /* Aquarius */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		6D6A364F6CA69DD468190C4D0FA373A1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -662,30 +688,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		774A06138256224507D77DC373A2FAA5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32D35ACD0B8A6A724EE6CDA3DD7CB414 /* Aquarius */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6D4402E3061318B972BDBE088D7F1A4C /* Development Pods */,
+				774A06138256224507D77DC373A2FAA5 /* Development Pods */,
 				D9812F64C09543709538D352DE4430FF /* Frameworks */,
 				09E40EDF3A66BD873948172C2E661689 /* Pods */,
 				7619A5282F7B74519DE58DCA0BE1656E /* Products */,
 				A360AC57D514F6A98A9BA7CF47CE3232 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7F87FE76586D8A4D2F2B09FEA828EA1A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				949AC128A5634C889E8D67639FFFC3B0 /* Aquarius.modulemap */,
-				6C8F6737F3991DDCFC5C382FC1C387E1 /* Aquarius.xcconfig */,
-				FC8B1D94F7F6046DA1D35BBF6F92E3D3 /* Aquarius-dummy.m */,
-				E0BF6D13E623C1221EBF3BD05A99A7AA /* Aquarius-prefix.pch */,
-				2A38834F30CAFD4F8394A1125E47B0A7 /* Aquarius-umbrella.h */,
-				9BDD73950B93EEF2EB69EBE2B24EDA4D /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Aquarius";
 			sourceTree = "<group>";
 		};
 		7FB78CD689FD6426B77EF7FE8F688127 /* Date */ = {
@@ -707,22 +727,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/BLFoundation";
-			sourceTree = "<group>";
-		};
-		85D4803677CB6F55D994E57E3A439EAB /* Aquarius */ = {
-			isa = PBXGroup;
-			children = (
-				E525F92E9CE9026B84B6048457B0238B /* Aquarius.h */,
-				6B05E49EB2AD5573EA7FB7E799B35EBA /* Aquarius.swift */,
-				058AEFA18A8FAEBF51880FB75FD5CBEB /* AquariusCell.swift */,
-				FEBA2493A08535D7FC14286682A4E93C /* AquariusDataSource.swift */,
-				7484E75F0CDA83F6775CEB556EC2A0FB /* AquariusProtocol.swift */,
-				4AD4D4412175CE297AF7643D2D836567 /* AquariusView.swift */,
-				25531DDA57E37E75E355F0D85E39ADF4 /* AquariusViewController.swift */,
-				7F87FE76586D8A4D2F2B09FEA828EA1A /* Support Files */,
-			);
-			name = Aquarius;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		9C7E64092CF706052D39289E6517A292 /* Support Files */ = {
@@ -791,6 +795,16 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Kingfisher";
+			sourceTree = "<group>";
+		};
+		B204376E34EDC6DAE60989E5E0F7B9A8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				182D0EF40987161EB51BF2EB9D76E195 /* Aquarius.podspec */,
+				2F2383644764F9125ACCE4B865351D0D /* LICENSE */,
+				21FF04D6DE9CF93DD8FDCF2D31E5A6B5 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B773E52EF2F7FAE524E441842743DB0A /* Support Files */ = {
@@ -1411,7 +1425,7 @@
 		};
 		1A87C27F95DE74E19DF7D59A9277E400 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C8F6737F3991DDCFC5C382FC1C387E1 /* Aquarius.xcconfig */;
+			baseConfigurationReference = 961578A8CD4EC047FA0AC0D81A4B8367 /* Aquarius.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1877,7 +1891,7 @@
 		};
 		D60B7F45202A1A2251C2EEEECE0AF950 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C8F6737F3991DDCFC5C382FC1C387E1 /* Aquarius.xcconfig */;
+			baseConfigurationReference = 961578A8CD4EC047FA0AC0D81A4B8367 /* Aquarius.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

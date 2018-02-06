@@ -40,6 +40,7 @@ open class AquariusViewController: UIViewController {
 extension AquariusViewController {
 
   public func update(containers items: [Aquarius.Container]) {
+
     cellItems = insert(tableView: tableView,
                        cellItems: cellItems,
                        newItems: items)
