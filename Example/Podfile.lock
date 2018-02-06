@@ -1,22 +1,25 @@
 PODS:
   - AnyFormatProtocol (0.4.0)
   - Aquarius (0.1.0)
-  - BLFoundation (0.4.1):
-    - BLFoundation/Data (= 0.4.1)
-    - BLFoundation/Date (= 0.4.1)
-    - BLFoundation/Number (= 0.4.1)
-    - BLFoundation/String (= 0.4.1)
-    - BLFoundation/Tools (= 0.4.1)
-  - BLFoundation/Data (0.4.1)
-  - BLFoundation/Date (0.4.1)
-  - BLFoundation/Number (0.4.1)
-  - BLFoundation/String (0.4.1)
-  - BLFoundation/Tools (0.4.1)
+  - BLFoundation (0.4.2):
+    - BLFoundation/Data (= 0.4.2)
+    - BLFoundation/Date (= 0.4.2)
+    - BLFoundation/Number (= 0.4.2)
+    - BLFoundation/String (= 0.4.2)
+    - BLFoundation/Tools (= 0.4.2)
+    - BLFoundation/URL (= 0.4.2)
+  - BLFoundation/Data (0.4.2)
+  - BLFoundation/Date (0.4.2)
+  - BLFoundation/Number (0.4.2)
+  - BLFoundation/String (0.4.2)
+  - BLFoundation/Tools (0.4.2)
+  - BLFoundation/URL (0.4.2)
   - Kingfisher (4.6.1)
   - SnapKit (4.0.0)
-  - SPKit (0.1.3):
+  - SPKit (0.1.5):
     - BLFoundation
-  - SPRoutable (0.8.0)
+  - SPRoutable (0.8.5):
+    - AnyFormatProtocol
 
 DEPENDENCIES:
   - AnyFormatProtocol
@@ -33,11 +36,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   AnyFormatProtocol: 4df38a96d761a43343616747e4aa744c35bf5e52
   Aquarius: 2be38ed1b76ac91e0a9e1f9c3c1b5bb4e8e86598
-  BLFoundation: eb5231c056f988a555a902ac74e899a55a0d751d
+  BLFoundation: 8cb533705aaeb73d4f2df1f87108788dab1b14f7
   Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
   SnapKit: a42d492c16e80209130a3379f73596c3454b7694
-  SPKit: d4d3d19cc0716f89b71f50fd5d1f64014b6c00bb
-  SPRoutable: a7144f9d63768e307ee8966e585767967a12f26a
+  SPKit: 3311e1d40b6d7cbebdc15af23d653ed197ec6af8
+  SPRoutable: 789c5aa44e021e664ec3d7fae1df221c3c3ab307
 
 PODFILE CHECKSUM: 4a8474672c566e397c58c416d3897c753706caf9
 

@@ -108,8 +108,8 @@ extension Json {
         containers(append: image2(ratio: 0.5)),
         containers(append: image2(ratio: 0.6)),
         containers(append: image2(ratio: 0.7)),
-         containers(append: image2(ratio: 0.8)),
-         containers(append: image2(ratio: 0.9))
+        containers(append: image2(ratio: 0.8)),
+        containers(append: image2(ratio: 0.9))
     ]
     ] as [String : Any]
   
